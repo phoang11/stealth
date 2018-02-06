@@ -532,7 +532,8 @@ a:hover, a:focus {
 }
 
 p {
-  margin: 0 0 10px
+  line-height: normal;
+  margin: 0 0 20px
 }
 
 .lead {
@@ -6289,7 +6290,7 @@ ul li.leaf {
   width: 100%;
   padding: 1em 0;
   background: #fff;
-  background: rgba(255, 255, 255, .8);
+  background: rgba(255, 255, 255, .95);
   border-bottom: 1px solid silver;
   text-align: right
 }
