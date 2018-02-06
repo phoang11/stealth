@@ -6574,10 +6574,12 @@ ul li.leaf {
     font-size: 3em
   }
 }
-
-.footer {
-  background: #fff
+@media (min-width: 767px) {
+  .footer {
+    background: rgba(226, 226, 226, 0.3)
+  }
 }
+
 
 .footer .span3 {
   padding: 2em 0;
