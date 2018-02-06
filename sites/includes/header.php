@@ -305,7 +305,7 @@
 														<div class="mobile-tab"><a href="#">Digital Cables</a></div>
 														<ul class="row">
 															<li class="span2">
-																<a href="/products/digital-cables/sextet_v16"><img src="/sites/images/products/nav_thumb/sextet_v16.png" alt="" />
+																<a href="/products/digital-cables/sextet-v16"><img src="/sites/images/products/nav_thumb/sextet_v16.png" alt="" />
 																	<div class="flyout-name">Sextet V16</div></a>
 															</li>
 
