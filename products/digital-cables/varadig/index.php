@@ -1,7 +1,7 @@
 <?php
 
 	//Page title.
-	$page_title = 'Śakra V12';
+	$page_title = 'Varadig';
 
 	//Meta description.
 	$meta_description = '';

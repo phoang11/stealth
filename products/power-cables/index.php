@@ -1,7 +1,7 @@
 <?php
 
 	//Page title.
-	$page_title = 'Power Cables';
+	$page_title = 'Swift';
 
 	//Meta description.
 	$meta_description = '';

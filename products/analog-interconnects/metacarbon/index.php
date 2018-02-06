@@ -1,7 +1,7 @@
 <?php
 
 	//Page title.
-	$page_title = 'Śakra V12';
+	$page_title = 'Metacarbon';
 
 	//Meta description.
 	$meta_description = '';

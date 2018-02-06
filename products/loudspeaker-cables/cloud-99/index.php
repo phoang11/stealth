@@ -1,7 +1,7 @@
 <?php
 
 	//Page title.
-	$page_title = 'Śakra V12';
+	$page_title = 'Cloud 99';
 
 	//Meta description.
 	$meta_description = '';

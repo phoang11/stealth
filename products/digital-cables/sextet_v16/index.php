@@ -1,7 +1,7 @@
 <?php
 
 	//Page title.
-	$page_title = 'Dream Royale';
+	$page_title = 'Sextet V16';
 
 	//Meta description.
 	$meta_description = '';
