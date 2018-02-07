@@ -378,7 +378,7 @@
 
 															</li>
 															<li class="span2">
-																<a href="/products/loudspeaker-cables/cloud-99"><img src="/sites/images/products/nav_thumb/sp_cloud_99.png" alt="" />
+																<a href="/products/loudspeaker-cables/cloude-99"><img src="/sites/images/products/nav_thumb/sp_cloud_99.png" alt="" />
 																	<div class="flyout-name">Cloude 99</div>
 																</a>
 
@@ -418,14 +418,14 @@
 
 															</li>
 															<li class="span2">
-																<a href="/products/power-cables/cloud-99"><img src="/sites/images/products/nav_thumb/pc_cloud_99.png" alt="" />
-																	<div class="flyout-name">Cloud 99</div>
+																<a href="/products/power-cables/cloude-99"><img src="/sites/images/products/nav_thumb/pc_cloud_99.png" alt="" />
+																	<div class="flyout-name">Cloude 99</div>
 																</a>
 
 															</li>
 															<li class="span2">
 																<a href="/products/power-cables/m7000"><img src="/sites/images/products/nav_thumb/pc_m7000.png" alt="" />
-																	<div class="flyout-name">M7000</div>
+																	<div class="flyout-name">M-7000</div>
 																</a>
 															</li>
 															<li class="span2">
