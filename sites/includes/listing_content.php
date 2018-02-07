@@ -27,7 +27,7 @@
                 <div v-for="item in items" class="sub-cat-row">
                   <div class="row">
                     <div class="span4">
-                      <div class="sub-cat-img"><a :href="item.url"><img :src=" item.image ? item.image['src'] : null" :alt="item.image ? item.image['alt'] : null "></a></div>
+                      <div class="sub-cat-img"><a :href="item.url"><img :src=" item.image ? item.image['src'] : http://via.placeholder.com/500x500" :alt="item.image ? item.image['alt'] : null "></a></div>
                     </div>
                     <!-- .span4 -->
                     <div class="span8">
