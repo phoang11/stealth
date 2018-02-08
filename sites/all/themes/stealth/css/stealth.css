@@ -9241,12 +9241,12 @@ ul li.leaf {
 
 .section-head {
   position: relative;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
   text-align: center
 }
 
 .hero-image {
-  padding: 5.625em 0 .2em
+  padding: 2.625em 0 .2em
 }
 
 .section-head, .section-head.black {
@@ -9266,7 +9266,7 @@ ul li.leaf {
 }
 
 .product-head {
-  margin: 0 0 3em
+  margin: 0 0 1em
 }
 
 .product-pre-headline {
@@ -9287,13 +9287,13 @@ ul li.leaf {
 
 @media (min-width:768px) {
   .product-headline {
-    font: 100 3.625em/1em Geogrotesque-SmBd, sans-serif
+    font: 100 2.625em/1em Geogrotesque-SmBd, sans-serif
   }
 }
 
 @media (min-width:1200px) {
   .product-headline {
-    font: 100 5.625em/1em Geogrotesque-SmBd, sans-serif
+    font: 100 2.625em/1em Geogrotesque-SmBd, sans-serif
   }
 }
 
