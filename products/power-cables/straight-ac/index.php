@@ -10,7 +10,7 @@
 	include  $_SERVER['DOCUMENT_ROOT'] . '/sites/includes/header.php';
 
 	//Main.
-	include  $_SERVER['DOCUMENT_ROOT'] . '/sites/includes/basic_content.php';
+	include  $_SERVER['DOCUMENT_ROOT'] . '/sites/includes/product_content.php';
 
 	//Footer.
  	include  $_SERVER['DOCUMENT_ROOT'] . '/sites/includes/footer.php';
@@ -22,9 +22,9 @@
 
 	<!-- Data source -->
 	<script type="text/javascript">
-		var apiURL = 'http://admin.stealthaudiocables.com/?q=nid&nid=20';
+		var apiURL = 'http://admin.stealthaudiocables.com/?q=product&nid=8';
 	</script>
-	<script type="text/javascript" src="/sites/all/themes/stealth/js/site/content.js"></script>
+	<script type="text/javascript" src="/sites/all/themes/stealth/js/site/content.product.js"></script>
 
 </body>
 </html>
