@@ -8894,3 +8894,47 @@ body #block-menu_block-5 .menu .leaf.solr-search .solr-search-box .block-inner {
     font-weight: 400
   }
 }
+/* Pricing Table */
+table.pricingTable {
+  border: 0;
+}
+
+table.pricingTable tr td,
+table.pricingTable tr th{
+  border: 1px solid #fff;
+  background: #efefef;
+  background: rgba(0, 0, 0, 0.063);
+}
+
+table.pricingTable tr th {
+  font: 100 20px/1em Geogrotesque-Rg, sans-serif;
+  color: #fff;
+  background: #1e63ff;
+  background: rgba(32, 97, 245, 0.9)
+}
+table.pricingTable tbody td {
+  font-size: 13px;
+  text-align: right;
+}
+table.pricingTable .borderBottom{
+  border-bottom: 1px solid #333;
+}
+
+table.pricingTable tr:nth-child(even) {
+  /* background: #D0E4F5; */
+}
+table.pricingTable thead {
+}
+table.pricingTable thead th {
+
+  color: #fff;
+  background: #1e63ff;
+  background: rgba(32, 97, 245, 0.9);
+  padding: 1em;
+  text-align: left;
+}
+table.pricingTable thead th:first-child {
+   background: none;
+   color: #1e63ff;
+   font: 100 25px/1em Geogrotesque-Rg, sans-serif;
+}
