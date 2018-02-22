@@ -1,11 +1,18 @@
 <?php
 
 return [
+    'database' => [
+        'host' => 'localhost',
+        'port' => '3389',
+        'dbname' => '',
+        'username' => '',
+        'password' => ''
+    ],
     'subject' => [
         'prefix' => '[Contact Form]'
     ],
     'emails' => [
-        'to'   => 'admin@novemberstudio.com',
+        'to'   => 'webmaster@nationalserviceresources.gov',
         'from' => ''
     ],
     'messages' => [
