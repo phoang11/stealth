@@ -41,7 +41,7 @@
                               <div class="field-item even">
                                 <h2>We’re Here to&nbsp;Help.</h2>
                                 <p>If you're in the United States or Canada, drop us a quick line and we’ll get back to you very&nbsp;soon.&nbsp;</p>
-                                <p>If you're outside the United States or Canada and need help, be sure to 
+                                <p>If you're outside the United States or Canada and need help, be sure to
                                   <a href="/distributors">contact your country's Stealth distributor</a>.
                                 </p>
                               </div>
@@ -69,7 +69,7 @@
                                         <input required="required" class="select-or-other-select form-radio" type="radio" id="edit-submitted-what-can-we-help-you-with-select-2" name="submitted[what_can_we_help_you_with][select]" value="support">  <label class="option" for="edit-submitted-what-can-we-help-you-with-select-2">I need some support help for a product I already own. </label>
                                       </div>
                                       <div class="form-item form-type-radio form-item-submitted-what-can-we-help-you-with-select">
-                                        <input required="required" class="select-or-other-select form-radio" type="radio" id="edit-submitted-what-can-we-help-you-with-select-3" name="submitted[what_can_we_help_you_with][select]" value="dealer">  <label class="option" for="edit-submitted-what-can-we-help-you-with-select-3">I would like to become a dealer. </label>
+                                        <input required="required" class="select-or-other-select form-radio" type="radio" id="edit-submitted-what-can-we-help-you-with-select-3" name="submitted[what_can_we_help_you_with][select]" value="dealer">  <label class="option" for="edit-submitted-what-can-we-help-you-with-select-3">I would like to become a distributor.</label>
                                       </div>
                                       <div class="form-item form-type-radio form-item-submitted-what-can-we-help-you-with-select">
                                         <input required="required" class="select-or-other-select form-radio" type="radio" id="edit-submitted-what-can-we-help-you-with-select-4" name="submitted[what_can_we_help_you_with][select]" value="select_or_other">  <label class="option" for="edit-submitted-what-can-we-help-you-with-select-4">Other... </label>
