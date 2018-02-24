@@ -39,8 +39,8 @@
                           <div class="field field-name-body field-type-text-with-summary field-label-hidden">
                             <div class="field-items">
                               <div class="field-item even">
-                                <h2>We’re Here to&nbsp;Help.</h2>
-                                <p>If you're in the United States or Canada, drop us a quick line and we’ll get back to you very&nbsp;soon.&nbsp;</p>
+                                <h2>We’re Here to Help.</h2>
+                                <p>If you're in the United States or Canada, drop us a quick line and we’ll get back to you very soon.</p>
                                 <p>If you're outside the United States or Canada and need help, be sure to
                                   <a href="/distributors">contact your country's Stealth distributor</a>.
                                 </p>

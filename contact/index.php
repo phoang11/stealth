@@ -31,7 +31,7 @@
       $email   = stripslashes(trim($_POST['form-email']));
       $phone   = stripslashes(trim($_POST['form-phone']));
       $subject = stripslashes(trim($_POST['form-subject']));
-      $message = stripslashes(trim($_POST['form-message']));
+      $message = strip_tags(stripslashes(trim($_POST['form-message'])));
 			$gspot = stripslashes(trim($_POST['form-gspot']));
       $pattern = '/[\r\n]|Content-Type:|Bcc:|Cc:/i';
 
