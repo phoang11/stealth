@@ -23,7 +23,11 @@ return [
         'name'     => 'Name',
         'email'    => 'Email',
         'phone'    => 'Phone',
-        'subject'  => 'Subject',
+        'subject'  => 'What can we help you with?',
+        'subject1'  => 'I have a question about a cable.',
+        'subject2'  => 'I need some support help for a cable I already own.',
+        'subject3'  => 'I would like to become a distributor.',
+        'subject4'  => 'Other...',
         'message'  => 'Message',
         'btn-send' => 'Send'
     ]

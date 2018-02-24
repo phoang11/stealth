@@ -32,6 +32,7 @@
       $phone   = stripslashes(trim($_POST['form-phone']));
       $subject = stripslashes(trim($_POST['form-subject']));
       $message = stripslashes(trim($_POST['form-message']));
+			$gspot = stripslashes(trim($_POST['form-gspot']));
       $pattern = '/[\r\n]|Content-Type:|Bcc:|Cc:/i';
 
       if (preg_match($pattern, $name) || preg_match($pattern, $email) || preg_match($pattern, $subject)) {
@@ -40,7 +41,7 @@
 
       $emailIsValid = filter_var($email, FILTER_VALIDATE_EMAIL);
 
-      if ($name && $email && $emailIsValid && $subject && $message) {
+      if ($name && $email && $emailIsValid && $subject && $message && empty($gspot)) {
           $mail = new SimpleMail();
 
           $mail->setTo($config->get('emails.to'));
@@ -48,7 +49,7 @@
           $mail->setSender($name);
           $mail->setSenderEmail($email);
           $mail->setSubject($config->get('subject.prefix') . ' ' . $subject);
-
+					$ip_address = $_SERVER['REMOTE_ADDR'];
           $body = "
           <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
           <html>
@@ -61,6 +62,7 @@
                   <p><strong>{$config->get('fields.email')}:</strong> {$email}</p>
                   <p><strong>{$config->get('fields.phone')}:</strong> {$phone}</p>
                   <p><strong>{$config->get('fields.message')}:</strong> {$message}</p>
+									<p><strong>IP:</strong> {$ip_address}</p>
               </body>
           </html>";
 
@@ -88,7 +90,7 @@
 	<!-- #page -->
 
 	<!-- Scripts -->
-  <script type="text/javascript" src="public/js/contact-form.js"></script>
+  <script type="text/javascript" src="../contact/public/js/contact-form.js"></script>
 	<script type="text/javascript">
 		new ContactForm('#contact-form');
 	</script>

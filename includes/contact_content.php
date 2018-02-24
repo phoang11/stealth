@@ -12,7 +12,7 @@
   <div class="container">
     <div class="row">
 
-      <section class="span12">
+      <section class="span9">
 
         <div id="content-area">
           <div class="region region-content">
@@ -50,60 +50,54 @@
                           <form class="webform-client-form" id="contact-form" action="/contact/" method="post" accept-charset="UTF-8">
                             <div>
                               <div class="form-item">
-                                <label for="form-name"><?php echo $config->get('fields.name'); ?><span class="form-required" title="This field is required.">*</span></label>
+                                <label for="form-name"><?php echo $config->get('fields.name'); ?>  <span class="form-required" title="This field is required.">*</span></label>
                                 <input required="required" type="text" id="form-name" name="form-name" value="" size="60" maxlength="128" class="form-text required">
                               </div>
                               <div class="form-item">
-                                <label for="form-email"><?php echo $config->get('fields.email'); ?><span class="form-required" title="This field is required.">*</span></label>
+                                <label for="form-email"><?php echo $config->get('fields.email'); ?>  <span class="form-required" title="This field is required.">*</span></label>
                                 <input required="required" class="email form-text form-email required" type="email" id="form-email" name="form-email" size="60">
                               </div>
-                              <div class="form-group">
-                                  <label for="form-phone" class="col-lg-2 control-label">Phone</label>
-                                  <div class="col-lg-10">
-                                      <input type="tel" class="form-control" id="form-phone" name="form-phone" placeholder="(123) 456-7890">
-                                  </div>
+                              <div class="form-item">
+                                <label for="form-phone" class="control-label"><?php echo $config->get('fields.phone'); ?></label>
+                                <input type="tel" class="form-control" id="form-phone" name="form-phone" placeholder="(111) 222-3333">
                               </div>
                               <div class="form-item">
                                 <div class="select-or-other">
                                   <div class="form-item form-type-radios">
-                                    <label for="edit-submitted-what-can-we-help-you-with-select">What can we help you with? <span class="form-required" title="This field is required.">*</span></label>
+                                    <label for="edit-submitted-what-can-we-help-you-with-select"><?php echo $config->get('fields.subject'); ?> <span class="form-required" title="This field is required.">*</span></label>
                                     <div id="edit-submitted-what-can-we-help-you-with-select" class="form-radios select-or-other-select">
-                                      <div class="form-item form-type-radio form-item-submitted-what-can-we-help-you-with-select">
-                                        <input required="required" class="form-radio" type="radio" id="select-1" name="form-subject" value="question" checked="checked">  <label class="option" for="edit-submitted-what-can-we-help-you-with-select-1">I have a question about a product. </label>
+                                      <div class="form-item form-type-radio">
+                                        <input required="required" class="form-radio" type="radio" id="select-1" name="form-subject" value="Cable Question" checked="checked">  <label class="option" for="select-1"><?php echo $config->get('fields.subject1'); ?></label>
                                       </div>
                                       <div class="form-item form-type-radio">
-                                        <input required="required" class="form-radio" type="radio" id="select-2" name="form-subject" value="support">  <label class="option" for="edit-submitted-what-can-we-help-you-with-select-2">I need some support help for a product I already own. </label>
+                                        <input required="required" class="form-radio" type="radio" id="select-2" name="form-subject" value="Support Question">  <label class="option" for="select-2"><?php echo $config->get('fields.subject2'); ?></label>
                                       </div>
                                       <div class="form-item form-type-radio">
-                                        <input required="required" class="form-radio" type="radio" id="select-3" name="form-subject" value="dealer">  <label class="option" for="edit-submitted-what-can-we-help-you-with-select-3">I would like to become a distributor.</label>
+                                        <input required="required" class="form-radio" type="radio" id="select-3" name="form-subject" value="Distributor Question">  <label class="option" for="select-3"><?php echo $config->get('fields.subject3'); ?></label>
                                       </div>
                                       <div class="form-item form-type-radio">
-                                        <input required="required" class="form-radio" type="radio" id="select-4" name="form-subject" value="other">  <label class="option" for="edit-submitted-what-can-we-help-you-with-select-4">Other... </label>
+                                        <input required="required" class="form-radio" type="radio" id="select-4" name="form-subject" value="Other Question">  <label class="option" for="select-4"><?php echo $config->get('fields.subject4'); ?></label>
                                       </div>
                                     </div>
                                   </div>
-                                  <!-- <div class="form-item form-type-textfield" style="display: none;">
-                                    <label class="element-invisible" for="edit-submitted-what-can-we-help-you-with-other">What can we help you with? Other... </label>
-                                    <input class="select-or-other-other form-text" type="text" id="edit-submitted-what-can-we-help-you-with-other" name="submitted[what_can_we_help_you_with][other]" value="" size="60" maxlength="128">
-                                  </div> -->
                                 </div>
                               </div>
                               <div class="form-item">
-                                <label for="form-message"><?php echo $config->get('fields.message'); ?><span class="form-required" title="This field is required.">*</span></label>
+                                <label for="form-message"><?php echo $config->get('fields.message'); ?>  <span class="form-required" title="This field is required.">*</span></label>
                                 <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
                                   <textarea required="required" id="form-message" name="form-message" cols="60" rows="5" class="form-textarea required"></textarea>
                                   <div class="grippie"></div>
                                 </div>
                               </div>
 
-                              <!-- <div class="form-group">
-                                  <label for="form-subject" class="col-lg-2 control-label">Subject</label>
-                                  <div class="col-lg-10">
-                                      <input type="text" class="form-control" id="form-subject" name="form-subject" placeholder="Subject" required="">
-                                  </div>
-                              </div> -->
-                              <button type="submit" class="btn btn-default form-submit">Send</button>
-                              <!-- <div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="op" value="Submit"></div> -->
+                              <div class="form-item form-type-textfield" style="display: none;">
+                                <label for="form-gspot" class="control-label element-invisible">My G spot</label>
+                                <input class="select-or-other-other form-text" type="text" id="form-gspot" name="form-gspot" value="" size="60" maxlength="10">
+                              </div>
+
+                              <div class="form-actions">
+                                <input class="webform-submit button-primary form-submit" type="submit" name="op" value="<?php echo $config->get('fields.btn-send'); ?>">
+                              </div>
                             </div>
                           </form>
                        </div>
