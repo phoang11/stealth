@@ -101,7 +101,7 @@
                                       <input type="text" class="form-control" id="form-subject" name="form-subject" placeholder="Subject" required="">
                                   </div>
                               </div>
-                              <button type="submit" class="btn btn-default">Send</button>
+                              <button type="submit" class="btn btn-default form-submit">Send</button>
                               <!-- <div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="op" value="Submit"></div> -->
                             </div>
                           </form>
