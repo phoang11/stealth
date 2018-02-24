@@ -7,7 +7,7 @@
 	$meta_description = '';
 
 	//Header.
-	include  $_SERVER['DOCUMENT_ROOT'] . '/sites/includes/header.php';
+	include  __DIR__ . '/sites/includes/header.php';
 
 	$block_header = '
 	<div id="main" class="basic-page">
@@ -36,10 +36,10 @@
 	';
 
 	//Main.
-	include  $_SERVER['DOCUMENT_ROOT'] . '/sites/includes/basic_content.php';
+	include  __DIR__ . '/sites/includes/basic_content.php';
 
 	//Footer.
- 	include  $_SERVER['DOCUMENT_ROOT'] . '/sites/includes/footer.php';
+ 	include  __DIR__ . '/sites/includes/footer.php';
 
 ?>
 

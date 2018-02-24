@@ -1,4 +1,4 @@
-<?php include  $_SERVER['DOCUMENT_ROOT'] . '/sites/includes/header.php'; ?>
+<?php include  __DIR__ . '/sites/includes/header.php'; ?>
 
 		<!-- ______________________ MAIN _______________________ -->
 
@@ -45,7 +45,7 @@
 		</div>
 		<!-- #main -->
 
-	<?php include  $_SERVER['DOCUMENT_ROOT'] . '/sites/includes/footer.php'; ?>
+	<?php include  __DIR__ . '/sites/includes/footer.php'; ?>
 
 	</div>
 	<!-- #page -->

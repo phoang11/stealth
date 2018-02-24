@@ -7,13 +7,13 @@
 	$meta_description = '';
 
 	//Header.
-	include  $_SERVER['DOCUMENT_ROOT'] . '/sites/includes/header.php';
+	include  __DIR__ . '/sites/includes/header.php';
 
 	//Main.
-	include  $_SERVER['DOCUMENT_ROOT'] . '/sites/includes/product_content.php';
+	include  __DIR__ . '/sites/includes/product_content.php';
 
 	//Footer.
- 	include  $_SERVER['DOCUMENT_ROOT'] . '/sites/includes/footer.php';
+ 	include  __DIR__ . '/sites/includes/footer.php';
 
 ?>
 
