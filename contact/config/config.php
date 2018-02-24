@@ -12,7 +12,7 @@ return [
         'prefix' => '[Contact Form]'
     ],
     'emails' => [
-        'to'   => 'webmaster@nationalserviceresources.gov',
+        'to'   => 'trinh_tien83@yahoo.com',
         'from' => ''
     ],
     'messages' => [

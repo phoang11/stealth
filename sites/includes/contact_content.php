@@ -47,19 +47,19 @@
                               </div>
                             </div>
                           </div>
-                          <form class="webform-client-form webform-client-form-1" action="/contact" method="post" id="webform-client-form-1" accept-charset="UTF-8">
+                          <form class="webform-client-form" id="contact-form" action="/contact/" method="post" accept-charset="UTF-8">
                             <div>
-                              <div class="form-item webform-component webform-component-textfield webform-component--name">
-                                <label for="edit-submitted-name"><?php echo $config->get('fields.name'); ?><span class="form-required" title="This field is required.">*</span></label>
-                                <input required="required" type="text" id="edit-submitted-name" name="submitted[name]" value="" size="60" maxlength="128" class="form-text required">
+                              <div class="form-item">
+                                <label for="form-name"><?php echo $config->get('fields.name'); ?><span class="form-required" title="This field is required.">*</span></label>
+                                <input required="required" type="text" id="form-name" name="form-name" value="" size="60" maxlength="128" class="form-text required">
                               </div>
-                              <div class="form-item webform-component webform-component-email webform-component--email-address">
-                                <label for="edit-submitted-email-address"><?php echo $config->get('fields.email'); ?><span class="form-required" title="This field is required.">*</span></label>
-                                <input required="required" class="email form-text form-email required" type="email" id="edit-submitted-email-address" name="submitted[email_address]" size="60">
+                              <div class="form-item">
+                                <label for="form-email"><?php echo $config->get('fields.email'); ?><span class="form-required" title="This field is required.">*</span></label>
+                                <input required="required" class="email form-text form-email required" type="email" id="form-email" name="form-email" size="60">
                               </div>
-                              <div class="form-item webform-component webform-component-select-or-other webform-component--what-can-we-help-you-with">
-                                <div class="select-or-other select-or-other-processed">
-                                  <div class="form-item form-type-radios form-item-submitted-what-can-we-help-you-with-select">
+                              <!-- <div class="form-item">
+                                <div class="select-or-other">
+                                  <div class="form-item form-type-radios">
                                     <label for="edit-submitted-what-can-we-help-you-with-select">What can we help you with? <span class="form-required" title="This field is required.">*</span></label>
                                     <div id="edit-submitted-what-can-we-help-you-with-select" class="form-radios select-or-other-select">
                                       <div class="form-item form-type-radio form-item-submitted-what-can-we-help-you-with-select">
@@ -81,15 +81,28 @@
                                     <input class="select-or-other-other form-text" type="text" id="edit-submitted-what-can-we-help-you-with-other" name="submitted[what_can_we_help_you_with][other]" value="" size="60" maxlength="128">
                                   </div>
                                 </div>
-                              </div>
-                              <div class="form-item webform-component webform-component-textarea webform-component--message">
-                                <label for="edit-submitted-message"><?php echo $config->get('fields.message'); ?><span class="form-required" title="This field is required.">*</span></label>
+                              </div> -->
+                              <div class="form-item">
+                                <label for="form-message"><?php echo $config->get('fields.message'); ?><span class="form-required" title="This field is required.">*</span></label>
                                 <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
-                                  <textarea required="required" id="edit-submitted-message" name="submitted[message]" cols="60" rows="5" class="form-textarea required"></textarea>
+                                  <textarea required="required" id="form-message" name="form-message" cols="60" rows="5" class="form-textarea required"></textarea>
                                   <div class="grippie"></div>
                                 </div>
                               </div>
-                              <div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="op" value="Submit"></div>
+                              <div class="form-group">
+                                  <label for="form-phone" class="col-lg-2 control-label">Phone</label>
+                                  <div class="col-lg-10">
+                                      <input type="tel" class="form-control" id="form-phone" name="form-phone" placeholder="Phone">
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                  <label for="form-subject" class="col-lg-2 control-label">Subject</label>
+                                  <div class="col-lg-10">
+                                      <input type="text" class="form-control" id="form-subject" name="form-subject" placeholder="Subject" required="">
+                                  </div>
+                              </div>
+                              <button type="submit" class="btn btn-default">Send</button>
+                              <!-- <div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="op" value="Submit"></div> -->
                             </div>
                           </form>
                        </div>
