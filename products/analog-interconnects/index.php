@@ -10,13 +10,13 @@
 	$meta_description = '';
 
 	//Header.
-	require_once BASEPATH . '/sites/includes/header.php';
+	require_once BASEPATH . '/includes/header.php';
 
 	//Main.
-	require_once BASEPATH . '/sites/includes/listing_content.php';
+	require_once BASEPATH . '/includes/listing_content.php';
 
 	//Footer.
- 	require_once BASEPATH . '/sites/includes/footer.php';
+ 	require_once BASEPATH . '/includes/footer.php';
 
 ?>
 

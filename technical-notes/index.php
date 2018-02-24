@@ -10,7 +10,7 @@
 	$meta_description = '';
 
 	//Header.
-	require_once BASEPATH . '/sites/includes/header.php';
+	require_once BASEPATH . '/includes/header.php';
 
 	$block_header = '
 	<div id="main" class="basic-page">
@@ -39,10 +39,10 @@
 	';
 
 	//Main.
-	require_once BASEPATH . '/sites/includes/basic_content.php';
+	require_once BASEPATH . '/includes/basic_content.php';
 
 	//Footer.
- 	require_once BASEPATH . '/sites/includes/footer.php';
+ 	require_once BASEPATH . '/includes/footer.php';
 
 ?>
 

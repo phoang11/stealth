@@ -1,4 +1,4 @@
-<?php require_once __DIR__ . '/sites/includes/header.php'; ?>
+<?php require_once __DIR__ . '/includes/header.php'; ?>
 
 		<!-- ______________________ MAIN _______________________ -->
 
@@ -45,7 +45,7 @@
 		</div>
 		<!-- #main -->
 
-	<?php require_once __DIR__ . '/sites/includes/footer.php'; ?>
+	<?php require_once __DIR__ . '/includes/footer.php'; ?>
 
 	</div>
 	<!-- #page -->
