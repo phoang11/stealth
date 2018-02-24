@@ -13,7 +13,7 @@ return [
     ],
     'emails' => [
         'to'   => 'trinh_tien83@yahoo.com',
-        'from' => ''
+        'from' => 'no-reply@novemberstudio.com'
     ],
     'messages' => [
         'error'   => 'There was an error sending, please try again later.',
