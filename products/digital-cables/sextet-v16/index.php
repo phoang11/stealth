@@ -1,5 +1,8 @@
 <?php
 
+	//Root directory.
+	define('BASEPATH', dirname(dirname(dirname(__DIR__))));
+
 	//Page title.
 	$page_title = 'Sextet V16';
 
@@ -7,13 +10,13 @@
 	$meta_description = '';
 
 	//Header.
-	include  __DIR__ . '/sites/includes/header.php';
+	require_once BASEPATH . '/sites/includes/header.php';
 
 	//Main.
-	include  __DIR__ . '/sites/includes/product_content.php';
+	require_once BASEPATH . '/sites/includes/product_content.php';
 
 	//Footer.
- 	include  __DIR__ . '/sites/includes/footer.php';
+ 	require_once BASEPATH . '/sites/includes/footer.php';
 
 ?>
 

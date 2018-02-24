@@ -1,5 +1,8 @@
 <?php
 
+	//Root directory.
+	define('BASEPATH', dirname(__DIR__));
+	
 	//Page title.
 	$page_title = 'Contact Us';
 
@@ -71,13 +74,13 @@
   }
 
 	//Header.
-	include  __DIR__ . '/sites/includes/header.php';
+	require_once BASEPATH . '/sites/includes/header.php';
 
 	//Main.
-	include  __DIR__ . '/sites/includes/contact_content.php';
+	require_once BASEPATH . '/sites/includes/contact_content.php';
 
 	//Footer.
- 	include  __DIR__ . '/sites/includes/footer.php';
+ 	require_once BASEPATH . '/sites/includes/footer.php';
 
 ?>
 

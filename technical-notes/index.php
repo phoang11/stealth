@@ -1,5 +1,8 @@
 <?php
 
+	//Root directory.
+	define('BASEPATH', dirname(__DIR__));
+
 	//Page title.
 	$page_title = 'Technical Notes';
 
@@ -7,7 +10,7 @@
 	$meta_description = '';
 
 	//Header.
-	include  __DIR__ . '/sites/includes/header.php';
+	require_once BASEPATH . '/sites/includes/header.php';
 
 	$block_header = '
 	<div id="main" class="basic-page">
@@ -36,10 +39,10 @@
 	';
 
 	//Main.
-	include  __DIR__ . '/sites/includes/basic_content.php';
+	require_once BASEPATH . '/sites/includes/basic_content.php';
 
 	//Footer.
- 	include  __DIR__ . '/sites/includes/footer.php';
+ 	require_once BASEPATH . '/sites/includes/footer.php';
 
 ?>
 
