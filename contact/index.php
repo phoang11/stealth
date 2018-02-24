@@ -62,6 +62,12 @@
                   <p><strong>{$config->get('fields.email')}:</strong> {$email}</p>
                   <p><strong>{$config->get('fields.phone')}:</strong> {$phone}</p>
                   <p><strong>{$config->get('fields.message')}:</strong> {$message}</p>
+									<br>
+									<br>
+									<br>
+									<br>
+									<br>
+									<p>STEALTH Audio Cables Team</p>
 									<p><strong>IP:</strong> {$ip_address}</p>
               </body>
           </html>";
