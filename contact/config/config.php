@@ -12,8 +12,8 @@ return [
         'prefix' => '[Contact Form]'
     ],
     'emails' => [
-        'to'   => 'trinh_tien83@yahoo.com',
-        'from' => ''
+        'to'   => 'admin@novemberstudio.com',
+        'from' => 'noreply@stealthaudiocables.com'
     ],
     'messages' => [
         'error'   => 'There was an error sending, please try again later.',

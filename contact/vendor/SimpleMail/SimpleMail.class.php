@@ -56,7 +56,7 @@ class SimpleMail
         $header   = 'MIME-Version: 1.0' . PHP_EOL;
         $header  .= 'To: <' . $this->to . '>' . PHP_EOL;
         $header  .= 'Date: ' . date('D, d M Y H:i:s O') . PHP_EOL;
-        $header  .= 'From: =?UTF-8?B?' . base64_encode($this->sender) . '?= <' . $this->sender_email . '>' . PHP_EOL;
+        $header  .= 'From: =?UTF-8?B?' . base64_encode($this->sender) . '?= <' . $this->from . '>' . PHP_EOL;
         $header  .= 'Reply-To: =?UTF-8?B?' . base64_encode($this->sender) . '?= <' . $this->sender_email . '>' . PHP_EOL;
         $header  .= 'Return-Path: ' . $this->from . PHP_EOL;
         $header  .= 'CC: ' . $this->sender_email . PHP_EOL;
