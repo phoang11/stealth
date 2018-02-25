@@ -21,15 +21,6 @@
 								<div id="stealthApp" class="content">
 									<article id="" class="node node-page node-odd">
 										<main-content></main-content>
-										<template id="main-content">
-											  <div>
-											    <header>
-											      <h1 class="title">{{ title }}</h1>
-											    </header>
-
-											    <div v-html="body" class="content"></div>
-											  </div>
-										</template>
 									</article>
 									<!-- /article #node -->
 								</div>

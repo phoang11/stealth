@@ -19,11 +19,9 @@
             <div id="block-system-main" class="block block-system block-odd first clearfix">
               <div class="block-inner">
 
-                <div class="content">
+                <div id="stealthApp" class="content">
                   <article id="" class="node node-page node-odd">
-                    <header>
-                      <h1 class="title"><?php echo $page_title; ?></h1>
-                    </header>
+                    <main-content></main-content>
 
                     <?php if(!empty($emailSent)): ?>
                         <div class="content">
@@ -36,7 +34,7 @@
                         </div>
                         <?php endif; ?>
                        <div class="content">
-                          <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                          <!-- <div class="field field-name-body field-type-text-with-summary field-label-hidden">
                             <div class="field-items">
                               <div class="field-item even">
                                 <h2>We’re Here to Help.</h2>
@@ -46,9 +44,10 @@
                                 </p>
                               </div>
                             </div>
-                          </div>
+                          </div> -->
                           <form class="webform-client-form" id="contact-form" action="/contact/" method="post" accept-charset="UTF-8">
                             <div>
+                              <h2>Get In Touch</h2>
                               <div class="form-item">
                                 <label for="form-name"><?php echo $config->get('fields.name'); ?>  <span class="form-required" title="This field is required.">*</span></label>
                                 <input required="required" type="text" id="form-name" name="form-name" value="" size="60" maxlength="128" class="form-text required">
@@ -115,7 +114,46 @@
       <!-- /content-inner /content -->
 
       <!-- /sidebar-first -->
-
+      <aside id="sidebar-second" class="span3">
+      	<div class="region region-sidebar-second">
+      		<div id="block-views-press_page-date_select" class="block block-views block-odd first last clearfix">
+      			<div class="block-inner">
+      				<div class="content">
+      					<div class="view view-press-page view-id-press_page view-display-id-date_select view-dom-id-b33c171b4779b60aa6178bf16a3fd5be">
+      						<div class="view-header">
+      							<h4>Shipping Information</h4>
+      						</div>
+      						<div class="view-content">
+      							<h3>Mailing Address</h3>
+                    <ul class="press-filter-list">
+                      <li class="press-filter">
+                        STEALTH Audio<br>
+                        Attn. Serguei Timachev<br>
+                        P.O. Box 1807<br>
+                        Olney, MD 20830<br>
+                        USA
+                        <span class="shipping-carrier"><span class="form-required">*</span> USPS/EMS</span>
+                      </li>
+                    </ul>
+                    <h3>Shipping Address</h3>
+                    <ul class="press-filter-list">
+                      <li class="press-filter">
+                        STEALTH Audio<br>
+                        Attn. Serguei Timachev<br>
+                        17600 Bowie Mill Rd.<br>
+                        Derwood, MD 20855<br>
+                        USA
+                        <span class="shipping-carrier"><span class="form-required">*</span> UPS/FedEx/DHL</span>
+                      </li>
+                    </ul>
+      						</div>
+      					</div>
+      				</div>
+      			</div>
+      		</div>
+      		<!-- /block-inner /block -->
+      	</div>
+      </aside>
       <!-- /sidebar-second -->
     </div>
     <!-- .row -->

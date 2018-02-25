@@ -9014,3 +9014,27 @@ table.pricingTable thead th {
    color: #1e63ff;
    font: 100 25px/1em Geogrotesque-Rg, sans-serif;
 } */
+#block-views-press_page-date_select {
+  margin-top: 9.1em;
+}
+#block-views-press_page-date_select h3 {
+  margin: 0;
+  padding: .8em 0;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.25em;
+  color: #000;
+}
+.press-filter-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.press-filter {
+  font-size: .9em;
+  padding: .8em .8em .8em 16px;
+}
+.shipping-carrier{
+  display: block;
+  padding: 10px 0 10px;
+  font-size: .75em;
+}

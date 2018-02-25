@@ -1,7 +1,7 @@
 
 
 const MainContent = {
-  template: '#main-content',
+  template: '<div><header><h1 class="title">{{ title }}</h1></header><div v-html="body" class="content"></div></div>',
   data() {
     return {
       title: null,

@@ -95,11 +95,17 @@
 	</div>
 	<!-- #page -->
 
-	<!-- Scripts -->
-  <script type="text/javascript" src="../contact/public/js/contact-form.js"></script>
+	<!-- ContactForm -->
+  <script type="text/javascript" src="/contact/public/js/contact-form.js"></script>
 	<script type="text/javascript">
 		new ContactForm('#contact-form');
 	</script>
+
+	<!-- Data source -->
+	<script type="text/javascript">
+		var apiURL = 'http://admin.stealthaudiocables.com/?q=nid&nid=3';
+	</script>
+	<script type="text/javascript" src="/sites/all/themes/stealth/js/site/content.js"></script>
 
 </body>
 </html>
