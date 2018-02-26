@@ -106,11 +106,10 @@
 												<div class="block-inner">
 
 													<div class="content">
-														<form action="https://www.example.com/" method="post" id="search-api-page-search-form-search" accept-charset="UTF-8">
-															<div><input placeholder="Enter your keywords" type="text" id="edit-keys-1" name="keys_1" value="" size="15" maxlength="128" class="form-text form-autocomplete live-results-search-textfield" /><input type="hidden" id="edit-keys-1-autocomplete"
-																  value="https://www.example.com/search_api_live_results/search_api_page_1" disabled="disabled" class="live-result-autocomplete" /><input type="hidden" name="id" value="1" />
-																<input type="submit" id="edit-submit-1" name="op" value="Search" class="form-submit" /><input type="hidden" name="form_build_id" value="form-Nh9e5jK0MHjhM_Zil62MJNWCGhroSVhqVnIzDUx0c94" />
-																<input type="hidden" name="form_id" value="search_api_page_search_form_search" />
+														<form action="/search" method="get" id="search-api-page-search-form-search" accept-charset="UTF-8">
+															<div>
+																<input placeholder="Enter your keywords" type="text" id="keywords" name="keywords" value="" size="15" maxlength="128" class="form-text form-autocomplete" />
+																<input type="submit" id="edit-submit-1"  value="Search" class="form-submit" />
 															</div>
 														</form>
 													</div>
@@ -122,28 +121,6 @@
 									</li>
 								</ul>
 							</div>
-						</div>
-
-					</div>
-				</div>
-				<!-- /block-inner /block -->
-				<div id="block-search-form" class="block block-search block-even clearfix">
-					<div class="block-inner">
-
-						<div class="content">
-							<form class="gss" action="https://www.example.com/" method="post" id="search-block-form" accept-charset="UTF-8">
-								<div>
-									<div class="container-inline">
-										<h2 class="element-invisible">Search form</h2>
-										<div class="form-item form-type-textfield form-item-search-block-form">
-											<label class="element-invisible" for="edit-search-block-form--2">Search </label>
-											<input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
-										</div>
-										<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-4MuWYXMk4SvnOkFcUKbrsVGkWAN-AuCnh8yxicm7BNs" />
-										<input type="hidden" name="form_id" value="search_block_form" />
-									</div>
-								</div>
-							</form>
 						</div>
 
 					</div>
