@@ -28,27 +28,34 @@
 
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       $name    = stripslashes(trim($_POST['form-name']));
+			$address = stripslashes(trim($_POST['form-address']));
+			$address2 = stripslashes(trim($_POST['form-address2']));
+      $city = stripslashes(trim($_POST['form-city']));
+			$zipcode = stripslashes(trim($_POST['form-zip']));
       $email   = stripslashes(trim($_POST['form-email']));
-      $phone   = stripslashes(trim($_POST['form-phone']));
-      $subject = stripslashes(trim($_POST['form-subject']));
+			$cable_category = stripslashes(trim($_POST['form-category']));
+			$cable_name = stripslashes(trim($_POST['form-cable-name']));
+			$cable_serial_number = stripslashes(trim($_POST['form-serial-number']));
+			$cable_place_purchased = stripslashes(trim($_POST['form-place-purchased']));
+
       $message = strip_tags(stripslashes(trim($_POST['form-message'])));
 			$gspot = stripslashes(trim($_POST['form-gspot']));
       $pattern = '/[\r\n]|Content-Type:|Bcc:|Cc:/i';
 
-      if (preg_match($pattern, $name) || preg_match($pattern, $email) || preg_match($pattern, $subject)) {
+      if (preg_match($pattern, $name) || preg_match($pattern, $email)) {
           die("Header injection detected");
       }
 
       $emailIsValid = filter_var($email, FILTER_VALIDATE_EMAIL);
 
-      if ($name && $email && $emailIsValid && $subject && $message && empty($gspot)) {
+      if ($name && $email && $emailIsValid && empty($gspot)) {
           $mail = new SimpleMail();
 
           $mail->setTo($config->get('emails.to'));
           $mail->setFrom($config->get('emails.from'));
           $mail->setSender($name);
           $mail->setSenderEmail($email);
-          $mail->setSubject($config->get('subject.prefix') . ' ' . $subject);
+          $mail->setSubject($config->get('subject.prefix') . ' ' . $name);
 					$ip_address = $_SERVER['REMOTE_ADDR'];
           $body = "
           <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
@@ -57,10 +64,17 @@
                   <meta charset=\"utf-8\">
               </head>
               <body>
-                  <h1>{$subject}</h1>
+                  <h1>{$name}</h1>
                   <p><strong>{$config->get('fields.name')}:</strong> {$name}</p>
+									<p><strong>{$config->get('fields.name')}:</strong> {$address}</p>
+									<p><strong>{$config->get('fields.name')}:</strong> {$address2}</p>
+									<p><strong>{$config->get('fields.name')}:</strong> {$city}</p>
+									<p><strong>{$config->get('fields.name')}:</strong> {$zipcode}</p>
                   <p><strong>{$config->get('fields.email')}:</strong> {$email}</p>
-                  <p><strong>{$config->get('fields.phone')}:</strong> {$phone}</p>
+									<p><strong>{$config->get('fields.name')}:</strong> {$cable_category}</p>
+									<p><strong>{$config->get('fields.name')}:</strong> {$cable_name}</p>
+									<p><strong>{$config->get('fields.name')}:</strong> {$cable_serial_number}</p>
+									<p><strong>{$config->get('fields.name')}:</strong> {$cable_place_purchased}</p>
                   <p><strong>{$config->get('fields.message')}:</strong> {$message}</p>
 									<br>
 									<br>
@@ -96,9 +110,9 @@
 	<!-- #page -->
 
 	<!-- ContactForm -->
-  <script type="text/javascript" src="/contact/public/js/contact-form.js"></script>
+  <script type="text/javascript" src="/register/public/js/register-form.js"></script>
 	<script type="text/javascript">
-		new ContactForm('#contact-form');
+		new RegisterForm('#register-form');
 	</script>
 
 	<!-- Data source -->

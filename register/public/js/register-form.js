@@ -6,14 +6,14 @@
     } else if (typeof exports === 'object') {
         module.exports = factory();
     } else {
-        root.ContactForm = factory();
+        root.RegisterForm = factory();
     }
 }(this, function () {
     'use strict';
 
-    var ContactForm = function (target) {
-        if (!this || !(this instanceof ContactForm)) {
-            return new ContactForm(target);
+    var RegisterForm = function (target) {
+        if (!this || !(this instanceof RegisterForm)) {
+            return new RegisterForm(target);
         }
 
         this.form = target instanceof Node ? target : document.querySelector(target);
@@ -25,7 +25,7 @@
         this.init();
     };
 
-    ContactForm.prototype = {
+    RegisterForm.prototype = {
         hasClass: function (el, name) {
             return new RegExp('(\\s|^)' + name + '(\\s|$)').test(el.className);
         },
@@ -58,7 +58,7 @@
                     var hasError = false,
                         name     = document.querySelector('#form-name'),
                         email    = document.querySelector('#form-email'),
-                        subject  = document.querySelector('#form-subject'),
+                        // subject  = document.querySelector('#form-subject'),
                         message  = document.querySelector('#form-message'),
                         // @from: https://html.spec.whatwg.org/multipage/forms.html#e-mail-state-(type=email)
                         testmail = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
@@ -73,10 +73,10 @@
                         this.addError(email);
                     }
 
-                    if (subject.value === '') {
-                        hasError = true;
-                        this.addError(subject);
-                    }
+                    // if (subject.value === '') {
+                    //     hasError = true;
+                    //     this.addError(subject);
+                    // }
 
                     if (message.value === '') {
                         hasError = true;
@@ -95,5 +95,5 @@
     };
 
 
-    return ContactForm;
+    return RegisterForm;
 }));

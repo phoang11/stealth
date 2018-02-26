@@ -34,7 +34,7 @@
                         </div>
                         <?php endif; ?>
                        <div class="content">
-                         <form class="webform-client-form" action="/register" method="post" id="form-register" accept-charset="UTF-8">
+                         <form class="webform-client-form" action="/register" method="post" id="register-form" accept-charset="UTF-8">
                          	<div>
                          		<fieldset class="webform-component-fieldset form-wrapper">
                          			<legend>
@@ -49,19 +49,19 @@
                          				</div>
                                 <div class="form-group form-item">
                                   <label for="form-address">Address <span class="form-required" title="This field is required.">*</span></label>
-                                  <input type="search" class="form-control" id="form-address" placeholder="Where do you live?" />
+                                  <input required="required" type="search" class="form-control form-text required" id="form-address" name="form-address" placeholder="Where do you live?" />
                                 </div>
                                 <div class="form-group form-item">
                                   <label for="form-address2">Address 2</label>
-                                  <input type="text" class="form-control" id="form-address2" placeholder="Street number and name" />
+                                  <input type="text" class="form-control" id="form-address2" name="form-address2" placeholder="Street number and name" />
                                 </div>
                                 <div class="form-group form-item">
                                   <label for="form-city">City <span class="form-required" title="This field is required.">*</span></label>
-                                  <input type="text" class="form-control" id="form-city" placeholder="City">
+                                  <input required="required" type="text" class="form-control" id="form-city" name="form-city"  placeholder="City">
                                 </div>
                                 <div class="form-group form-item">
                                   <label for="form-zip">ZIP code <span class="form-required" title="This field is required.">*</span></label>
-                                  <input type="text" class="form-control" id="form-zip" placeholder="ZIP code">
+                                  <input required="required" type="text" class="form-control" id="form-zip" name="form-zip" placeholder="ZIP code">
                                 </div>
                          				<div class="form-item">
                          					<label for="form-email">Email Address </label>
@@ -71,30 +71,38 @@
                          		</fieldset>
                          		<fieldset class="webform-component-fieldset form-wrapper">
                          			<legend>
-                         				<span class="fieldset-legend">Product Information</span>
+                         				<span class="fieldset-legend">Cable Information</span>
                          			</legend>
                          			<div class="fieldset-wrapper">
-                         				<div class="form-item webform-component webform-component-select">
-                         					<label for="edit-submitted-product-information-select-product-to-be-registered">Select product to be registered
-                         												<span class="form-required" title="This field is required.">*</span>
-                         											</label>
-                         					<select required="required" id="edit-submitted-product-information-select-product-to-be-registered" name="submitted[product_information][select_product_to_be_registered]" class="form-select required">
-                         												<option value="" selected="selected">- Select -</option>
-                         												<option value="A2">A2 Acoustic Effects Pedal</option>
-                         												<option value="A2.1u">A2.1u Acoustic Effects Pedal with USB and Expression Pedal</option>
-                         												<option value="XYH-5">XYH-5 Shock Mounted Stereo Microphone Capsule</option>
-                         												<option value="XYH-6">XYH-6 Adjustable Stereo Microphone Capsule</option>
-                         											</select>
+                                <div class="form-item webform-component webform-component-select">
+                                	<label for="form-category">Cable Type
+                                		<span title="This field is required." class="form-required">*</span>
+                                	</label>
+                                	<select required="required" id="form-category" name="form-category" class="form-select required">
+                                		<option value="" selected="selected">- Select -</option>
+                                		<option value="Analog Interconnect">Analog Interconnect</option>
+                                		<option value="Digital Cables">Digital Cables</option>
+                                		<option value="Loudspeaker Cables">Loudspeaker Cables</option>
+                                    <option value="Power Cables">Power Cables</option>
+                                    <option value="Phono Cables">Phono Cables</option>
+                                		<option value="USB Cables">USB Cables</option>
+                                	</select>
+                                </div>
+                         				<div class="form-item">
+                         					<label for="form-cable-name">Cable Name
+                         							<span class="form-required" title="This field is required.">*</span>
+                         					</label>
+                         					<input required="required" type="text" id="form-cable-name" name="form-cable-name" value="" size="120" maxlength="255" class="form-text required">
                          				</div>
                          				<div class="form-item">
-                         					<label for="form-serial-numbe">Product Serial Number
+                         					<label for="form-serial-number">Cable Serial Number
                          					  <span class="form-required" title="This field is required.">*</span>
                          					</label>
-                         					<input required="required" type="text" id="form-serial-numbe" name="form-serial-numbe" value="" size="60" maxlength="9" class="form-text required">
+                         					<input required="required" type="text" id="form-serial-number" name="form-serial-number" value="" size="60" maxlength="12" class="form-text required">
                          				</div>
                          				<div class="form-item">
-                         					<label for="form-place-purchased">Where was the product purchased? </label>
-                         					<input type="text" id="form-place-purchased" name="form-place-purchased" value="" size="60" maxlength="128" class="form-text">
+                         					<label for="form-place-purchased">Where was the cable purchased? </label>
+                         					<input type="text" id="form-place-purchased" name="form-place-purchased" value="" size="120" maxlength="255" class="form-text">
                          				</div>
                          			</div>
                          		</fieldset>
@@ -110,7 +118,7 @@
                               <label for="form-gspot" class="control-label element-invisible">My G spot</label>
                               <input class="select-or-other-other form-text" type="text" id="form-gspot" name="form-gspot" value="" size="60" maxlength="10">
                             </div>
-                            
+
                          		<div class="form-actions">
                          			<input class="webform-submit button-primary form-submit" type="submit" name="op" value="Submit">
                          		</div>
