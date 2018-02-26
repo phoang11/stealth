@@ -45,7 +45,7 @@
                          					<label for="form-name">Name
                          						<span class="form-required" title="This field is required.">*</span>
                          					</label>
-                         					<input required="required" type="text" id="form-name" name="form-name" value="" size="60" maxlength="128" class="form-text required">
+                         					<input required="required" type="text" id="form-name" name="form-name" value="" size="60" maxlength="128" class="form-text required" placeholder="Full Name">
                          				</div>
                                 <div class="form-group form-item">
                                   <label for="form-address">Address <span class="form-required" title="This field is required.">*</span></label>
@@ -53,19 +53,27 @@
                                 </div>
                                 <div class="form-group form-item">
                                   <label for="form-address2">Address 2</label>
-                                  <input type="text" class="form-control" id="form-address2" name="form-address2" placeholder="Street number and name" />
+                                  <input type="text" class="form-control" id="form-address2" name="form-address2" />
                                 </div>
                                 <div class="form-group form-item">
                                   <label for="form-city">City <span class="form-required" title="This field is required.">*</span></label>
-                                  <input required="required" type="text" class="form-control" id="form-city" name="form-city"  placeholder="City">
+                                  <input required="required" type="text" class="form-control" id="form-city" name="form-city" />
+                                </div>
+                                <div class="form-group form-item">
+                                  <label for="form-state">State/Province</label>
+                                  <input type="text" class="form-control" id="form-state" name="form-state">
                                 </div>
                                 <div class="form-group form-item">
                                   <label for="form-zip">ZIP code <span class="form-required" title="This field is required.">*</span></label>
-                                  <input required="required" type="text" class="form-control" id="form-zip" name="form-zip" placeholder="ZIP code">
+                                  <input required="required" type="text" class="form-control" id="form-zip" name="form-zip" />
+                                </div>
+                                <div class="form-group form-item">
+                                  <label for="form-country">Country <span class="form-required" title="This field is required.">*</span></label>
+                                  <input required="required" type="text" class="form-control" id="form-country" name="form-country">
                                 </div>
                          				<div class="form-item">
-                         					<label for="form-email">Email Address </label>
-                         					<input class="email form-text form-email" type="email" id="form-email" name="form-email" size="60">
+                         					<label for="form-email">Email Address <span class="form-required" title="This field is required.">*</span></label>
+                         					<input required="required" class="email form-text form-email" type="email" id="form-email" name="form-email" size="60">
                          				</div>
                          			</div>
                          		</fieldset>

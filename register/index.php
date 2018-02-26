@@ -48,7 +48,13 @@
 
       $emailIsValid = filter_var($email, FILTER_VALIDATE_EMAIL);
 
-      if ($name && $email && $emailIsValid && empty($gspot)) {
+      if ($name &&
+					$email &&
+					$emailIsValid &&
+					$cable_category &&
+					$cable_name &&
+					$cable_serial_number &&
+					empty($gspot)) {
           $mail = new SimpleMail();
 
           $mail->setTo($config->get('emails.to'));
@@ -69,7 +75,9 @@
 									<p><strong>{$config->get('fields.name')}:</strong> {$address}</p>
 									<p><strong>{$config->get('fields.name')}:</strong> {$address2}</p>
 									<p><strong>{$config->get('fields.name')}:</strong> {$city}</p>
+									<p><strong>{$config->get('fields.name')}:</strong> {$state}</p>
 									<p><strong>{$config->get('fields.name')}:</strong> {$zipcode}</p>
+									<p><strong>{$config->get('fields.name')}:</strong> {$country}</p>
                   <p><strong>{$config->get('fields.email')}:</strong> {$email}</p>
 									<p><strong>{$config->get('fields.name')}:</strong> {$cable_category}</p>
 									<p><strong>{$config->get('fields.name')}:</strong> {$cable_name}</p>
@@ -135,9 +143,10 @@
 	    }
 	  });
 	  placesAutocomplete.on('change', function resultSelected(e) {
-	    document.querySelector('#form-address2').value = e.suggestion.administrative || '';
+	    document.querySelector('#form-state').value = e.suggestion.administrative || '';
 	    document.querySelector('#form-city').value = e.suggestion.city || '';
 	    document.querySelector('#form-zip').value = e.suggestion.postcode || '';
+			document.querySelector('#form-country').value = e.suggestion.country || '';
 	  });
 	})();
 	</script>
