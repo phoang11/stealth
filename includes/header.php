@@ -92,13 +92,13 @@
 						<div class="content">
 							<div class="menu-block-wrapper menu-block-5 menu-name-menu-secondary-navigation parent-mlid-0 menu-level-1">
 								<ul class="menu">
-									<li class="first leaf"><a href="/reviews" title="">Reviews</a></li>
-									<li class="leaf"><a href="/distributors" title="">Distributors</a></li>
+									<li class="first leaf"><a href="/news" title="">News</a></li>
 									<li class="leaf"><a href="/pricing" title="">Pricing</a></li>
+									<li class="leaf"><a href="/distributors" title="">Distributors</a></li>
+									<li class="leaf"><a href="/reviews" title="">Reviews</a></li>
 									<li class="leaf"><a href="/technical-notes" title="">Technical Notes</a></li>
 									<li class="leaf"><a href="/warranty" title="">Warranty</a></li>
-									<li class="leaf"><a href="/gallery" title="">Gallery</a></li>
-									<li class="leaf"><a href="/news" title="">News</a></li>
+									<li class="leaf"><a href="/register" title="">Register</a></li>
 									<li class="leaf"><a href="/contact" title="">Contact</a></li>
 									<li class="last leaf solr-search">
 										<div class="menu-attach-block-wrapper">
