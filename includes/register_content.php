@@ -34,7 +34,7 @@
                         </div>
                         <?php endif; ?>
                        <div class="content">
-                         <form class="webform-client-form" action="/register" method="post" id="register-form" accept-charset="UTF-8">
+                         <form class="webform-client-form" action="/register/" method="post" id="register-form" accept-charset="UTF-8">
                          	<div>
                          		<fieldset class="webform-component-fieldset form-wrapper">
                          			<legend>
@@ -98,7 +98,7 @@
                          					<label for="form-serial-number">Cable Serial Number
                          					  <span class="form-required" title="This field is required.">*</span>
                          					</label>
-                         					<input required="required" type="text" id="form-serial-number" name="form-serial-number" value="" size="60" maxlength="12" class="form-text required">
+                         					<input required="required" type="text" id="form-serial-number" name="form-serial-number" value="" size="60" maxlength="24" class="form-text required">
                          				</div>
                          				<div class="form-item">
                          					<label for="form-place-purchased">Where was the cable purchased? </label>
