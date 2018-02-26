@@ -145,7 +145,7 @@
 	  placesAutocomplete.on('change', function resultSelected(e) {
 	    document.querySelector('#form-state').value = e.suggestion.administrative || '';
 	    document.querySelector('#form-city').value = e.suggestion.city || '';
-	    document.querySelector('#form-zip').value = e.suggestion.postcode || '';
+	    document.querySelector('#form-zip').value = e.suggestion.postcode || '0';
 			document.querySelector('#form-country').value = e.suggestion.country || '';
 	  });
 	})();

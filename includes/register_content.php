@@ -47,6 +47,10 @@
                          					</label>
                          					<input required="required" type="text" id="form-name" name="form-name" value="" size="60" maxlength="128" class="form-text required" placeholder="Full Name">
                          				</div>
+                                <div class="form-item">
+                                  <label for="form-email">Email <span class="form-required" title="This field is required.">*</span></label>
+                                  <input required="required" class="email form-text form-email" type="email" id="form-email" name="form-email" size="60">
+                                </div>
                                 <div class="form-group form-item">
                                   <label for="form-address">Address <span class="form-required" title="This field is required.">*</span></label>
                                   <input required="required" type="search" class="form-control form-text required" id="form-address" name="form-address" placeholder="Where do you live?" />
@@ -71,10 +75,6 @@
                                   <label for="form-country">Country <span class="form-required" title="This field is required.">*</span></label>
                                   <input required="required" type="text" class="form-control" id="form-country" name="form-country">
                                 </div>
-                         				<div class="form-item">
-                         					<label for="form-email">Email Address <span class="form-required" title="This field is required.">*</span></label>
-                         					<input required="required" class="email form-text form-email" type="email" id="form-email" name="form-email" size="60">
-                         				</div>
                          			</div>
                          		</fieldset>
                          		<fieldset class="webform-component-fieldset form-wrapper">
