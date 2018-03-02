@@ -22,8 +22,9 @@
 									<h1>Search</h1>
 									<form action="/search" method="get" id="search-api-page-search-form" accept-charset="UTF-8">
 										<div role="application">
-											<input type="text" id="edit-keys-1" id="keys_1" name="keys_1" value="" size="30" maxlength="128" class="form-text form-autocomplete live-results-search-textfield" autocomplete="OFF" aria-autocomplete="list">
-											<input type="submit" id="edit-submit-1" value="Search" class="form-submit">
+											<input type="text" v-model="search" class="form-text form-autocomplete live-results-search-textfield" aria-autocomplete="list">
+											<!-- <input type="submit" id="edit-submit-1" value="Search" class="form-submit"> -->
+											<main-content></main-content>
 											<span class="element-invisible" aria-live="assertive" id="edit-keys-1-autocomplete-aria-live"></span>
 										</div>
 									</form>
