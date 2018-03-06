@@ -109,13 +109,13 @@
                          					<input required="required" type="text" id="form-serial-number" name="form-serial-number" value="" size="60" maxlength="24" class="form-text required">
                          				</div>
                          				<div class="form-item">
-                         					<label for="form-place-purchased">Where was the cable purchased? </label>
-                         					<input type="text" id="form-place-purchased" name="form-place-purchased" value="" size="120" maxlength="255" class="form-text">
+                         					<label for="form-place-purchased">Where was the cable purchased? <span class="form-required" title="This field is required.">*</span></label>
+                         					<input required="required" type="text" id="form-place-purchased" name="form-place-purchased" value="" size="120" maxlength="255" class="form-text">
                          				</div>
                          			</div>
                          		</fieldset>
                          		<div class="form-item webform-component">
-                         			<label for="form-message">How do you intend on using the cable? </label>
+                         			<label for="form-message">How do you intend to use the cable? </label>
                          			<div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
                          				<textarea id="form-message" name="form-message" cols="60" rows="5" class="form-textarea"></textarea>
                          				<div class="grippie"></div>

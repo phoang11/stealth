@@ -31,7 +31,9 @@
 			$address = stripslashes(trim($_POST['form-address']));
 			$address2 = stripslashes(trim($_POST['form-address2']));
       $city = stripslashes(trim($_POST['form-city']));
+			$state = stripslashes(trim($_POST['form-state']));
 			$zipcode = stripslashes(trim($_POST['form-zip']));
+			$country = stripslashes(trim($_POST['form-country']));
       $email   = stripslashes(trim($_POST['form-email']));
 			$cable_category = stripslashes(trim($_POST['form-category']));
 			$cable_name = stripslashes(trim($_POST['form-cable-name']));

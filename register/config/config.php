@@ -17,7 +17,7 @@ return [
     ],
     'messages' => [
         'error'   => 'There was an error sending, please try again later.',
-        'success' => 'Your submission has been sent successfully. You will receive an confirmation email shortly.'
+        'success' => 'Your submission has been sent successfully. You will receive a confirmation email shortly.'
     ],
     'fields' => [
         'name'     => 'Name',
