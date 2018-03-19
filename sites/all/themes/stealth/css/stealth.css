@@ -5762,13 +5762,14 @@ h2 {
 
 h3 {
   margin: .5em 0;
-  font: 100 2.25em/1em Geogrotesque-Rg, sans-serif;
+  font: 100 1.25em/1em Geogrotesque-Rg, sans-serif;
   color: #2967ff
 }
 
 h4 {
   margin: .5em 0;
   font: 100 1em/1em Geogrotesque-Rg, sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
   color: #6e6e6e
 }
