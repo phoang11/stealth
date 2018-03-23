@@ -23,7 +23,7 @@
 																</a>
 															</h1>
 													<p>For Dream Cable Series</p>
-													<a href="#" class="btn primary-btn">Read More</a>
+													<!-- <a href="#" class="btn primary-btn">Read More</a> -->
 												</div>
 											</div>
 											<!-- .row -->
@@ -44,7 +44,19 @@
 			</div>
 		</div>
 		<!-- #main -->
-
+		<div class="container">
+			<section class="span12">
+				<div id="home-stealth" class="content">
+					<p>Sound</p>
+					<p>Technology</p>
+					<p>Enabling</p>
+					<p>Audibly</p>
+					<p>Lucid</p>
+					<p>Transcomponent</p>
+					<p>Harmony</p>
+				</div>
+				</section>
+		</div>
 	<?php require_once __DIR__ . '/includes/footer.php'; ?>
 
 	</div>

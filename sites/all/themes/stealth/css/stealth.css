@@ -6157,6 +6157,35 @@ ul li.leaf {
   }
 }
 
+#home-stealth {
+  margin: 2em 0;
+  text-align: center;
+  font: 100 28px/1em Geogrotesque-Rg, sans-serif;
+  color: #2967ff;
+}
+
+#home-stealth p{
+  margin: 0;
+  display: inline-block;
+}
+
+#home-stealth p::first-letter {
+  font: 100 35px/1em Geogrotesque-Rg, sans-serif;
+}
+
+@media (max-width: 767px) {
+  #home-stealth {
+    padding: 0 1em;
+    margin: 2em 0;
+    text-align: center;
+    font: 100 25px/1em Geogrotesque-Rg, sans-serif;
+    color: #2967ff;
+  }
+
+  #home-stealth p::first-letter {
+    font: 100 28px/1em Geogrotesque-Rg, sans-serif;
+  }
+}
 .menu-block-1>.menu>li>a {
   display: block;
   border-right: 1px solid #000;
