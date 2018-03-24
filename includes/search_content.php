@@ -22,41 +22,27 @@
 									<h1>Search</h1>
 									<form action="/search" method="get" id="search-api-page-search-form" accept-charset="UTF-8">
 										<div role="application">
-											<input type="text" v-model="search" class="form-text form-autocomplete live-results-search-textfield" aria-autocomplete="list">
-											<!-- <input type="submit" id="edit-submit-1" value="Search" class="form-submit"> -->
-											<main-content></main-content>
+											<input type="text" v-model="searchQuery" class="form-text form-autocomplete live-results-search-textfield" aria-autocomplete="list">
 											<span class="element-invisible" aria-live="assertive" id="edit-keys-1-autocomplete-aria-live"></span>
 										</div>
 									</form>
 									<div class="search-api-page-results">
-										<p class="search-performance">The search found 16 results in 0.175 seconds.</p>
 										<h2>Search results</h2>
 										<ol class="search-results">
-											<li class="search-result">
+											<li v-for="node in nodes" class="search-result">
 												<h3 class="title">
-													<a href="/where-to-buy/band-pro-film-and-digital-inc">Band Pro Film and Digital Inc.</a>
+													<a :href="node.URL" target="_blank">{{ node.title }}</a>
 												</h3>
 												<div class="search-snippet-info">
-													<p class="search-snippet"> Band Pro Film and
-														<strong>Digital</strong> Inc. ...
-													</p>
+													<p class="search-snippet" v-html="node.body"></p>
 												</div>
-											</li>
-											<li class="search-result">
-												<h3 class="title">
-													<a href="/products/field-video-recording/video-recording/zoom-q2n-handy-video-recorder">test Q2n Handy Video Recorder</a>
-												</h3>
-												<div class="search-snippet-info">
-													<p class="search-snippet">... role in helping you reach a wider fan base. It’s a
-														<strong>digital</strong> world and that means an inspiring performance can take the Internet by ...
-													</p>
+												<div class="search-category">
+													{{ node.category }}
 												</div>
 											</li>
 										</ol>
 									</div>
 								</div>
-
-
 							</div>
 						</div>
 						<!-- /block-inner /block -->
