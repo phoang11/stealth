@@ -70,7 +70,7 @@
 	<script type="text/javascript" src="/sites/all/themes/stealth/vendor/owl.carousel/src/js/owl.navigation.js"></script>
 	<script type="text/javascript" src="/sites/all/themes/stealth/vendor/swap-svg/swap-svg.js"></script>
 	<script type="text/javascript" src="/sites/all/themes/stealth/js/site/stealth.js"></script>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 
 	<script type="text/html" id="scroll-to-top-frag">
 		<div id="scoll-to-top"><a href="#" class="scroll-button">Scroll to Top</a></div>
