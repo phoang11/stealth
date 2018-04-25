@@ -12,7 +12,7 @@ return [
         'prefix' => '[Contact Form]'
     ],
     'emails' => [
-        'to'   => 'admin@novemberstudio.com',
+        'to'   => 'stealth@stealthaudiocables.com',
         'from' => 'noreply@stealthaudiocables.com'
     ],
     'messages' => [

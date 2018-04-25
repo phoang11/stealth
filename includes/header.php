@@ -108,7 +108,7 @@
 													<div class="content">
 														<form action="/search" method="get" id="search-api-page-search-form-search" accept-charset="UTF-8">
 															<div>
-																<input placeholder="Enter your keywords" type="text" id="keywords" name="keywords" value="" size="15" maxlength="128" class="form-text form-autocomplete" />
+																<input disabled placeholder="Enter your keywords" type="text" id="keywords" name="keywords" value="" size="15" maxlength="128" class="form-text form-autocomplete" />
 																<input type="submit" id="edit-submit-1"  value="Search" class="form-submit" />
 															</div>
 														</form>
