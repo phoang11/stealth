@@ -218,10 +218,15 @@
 														<div class="mobile-tab"><a href="/products/analog-interconnects">Analog Interconnects</a></div>
 														<ul class="row">
 															<li class="span2">
+																<a href="/products/analog-interconnects/sakra-v17-limited-edition"><img src="/sites/images/products/nav_thumb/sakra_v12.png" alt="" />
+																	<div class="flyout-name">Śakra V17</div>
+																	<div class="flyout-description">Limited Edition</div>
+																</a>
+															</li>
+															<li class="span2">
 																<a href="/products/analog-interconnects/sakra-v12"><img src="/sites/images/products/nav_thumb/sakra_v12.png" alt="" />
 																	<div class="flyout-name">Śakra V12</div>
 																</a>
-
 															</li>
 															<li class="span2">
 																<a href="/products/analog-interconnects/indra-v10"><img src="/sites/images/products/nav_thumb/indra_v10.png" alt="" />
