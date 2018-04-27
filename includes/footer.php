@@ -93,7 +93,7 @@
         <div class="block-inner">
 
           <div class="content">
-            © <?php print(gmdate("Y")); ?> Stealth Audio Cables. All Rights Reserved
+            © <?php print(gmdate("Y")); ?> Stealth Audio Cables. All Rights Reserved.
           </div>
 
         </div>
@@ -103,3 +103,13 @@
   </div>
 </footer>
 <!-- .footer -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118209647-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118209647-1');
+</script>
