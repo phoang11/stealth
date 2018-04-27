@@ -286,6 +286,20 @@
 													<div class="product-category-items product-category-tid-15">
 														<div class="mobile-tab"><a href="#">Digital Cables</a></div>
 														<ul class="row">
+
+															<li class="span2">
+																<a href="/products/digital-cables/octava"><img src="/sites/images/products/nav_thumb/octava_aes_2.png" alt="" />
+																	<div class="flyout-name">Octava-T</div>
+																	<div class="flyout-description">Turnable</div>
+																</a>
+															</li>
+
+															<li class="span2">
+																<a href="/products/digital-cables/octava"><img src="/sites/images/products/nav_thumb/octava_rca.png" alt="" />
+																	<div class="flyout-name">Octava</div>
+																</a>
+															</li>
+
 															<li class="span2">
 																<a href="/products/digital-cables/sextet-v16"><img src="/sites/images/products/nav_thumb/sextet_v16.png" alt="" />
 																	<div class="flyout-name">Sextet V16</div></a>
@@ -294,6 +308,13 @@
 															<li class="span2">
 																<a href="/products/digital-cables/varadig"><img src="/sites/images/products/nav_thumb/varadig.png" alt="" />
 																	<div class="flyout-name">Varadig</div></a>
+															</li>
+
+															<li class="span2">
+																<a href="/products/digital-cables/black-magic"><img src="/sites/images/products/nav_thumb/i2s_general.png" alt="" />
+																	<div class="flyout-name">Black Magic</div>
+																	<div class="flyout-description">Ethernet/LAN</div>
+																</a>
 															</li>
 
 															<li class="span2">
