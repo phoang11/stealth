@@ -6507,12 +6507,12 @@ ul li.leaf {
 }
 
 #mobile-main-navigation>li>a {
-  display: block;
-  padding: 10px 16px;
+  display: none;
+  /* padding: 10px 16px;
   background: #000;
   font-style: italic;
   color: #666;
-  cursor: default
+  cursor: default */
 }
 
 #mobile-main-navigation .mobile-tab {

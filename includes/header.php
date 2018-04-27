@@ -262,7 +262,7 @@
 													</div>
 													<!-- .product-category-tid- -->
 													<div class="product-category-items product-category-tid-10">
-														<div class="mobile-tab"><a href="#">Phono Cables</a></div>
+														<div class="mobile-tab"><a href="/products/phono-cables">Phono Cables</a></div>
 														<ul class="row">
 															<li class="span2">
 																<a href="/products/phono-cables/helios"><img src="/sites/images/products/nav_thumb/helios.png" alt="" />
@@ -284,7 +284,7 @@
 											<div class="view-grouping">
 												<div class="view-grouping-content taxonomy-term-4">
 													<div class="product-category-items product-category-tid-15">
-														<div class="mobile-tab"><a href="#">Digital Cables</a></div>
+														<div class="mobile-tab"><a href="/products/digital-cables">Digital Cables</a></div>
 														<ul class="row">
 
 															<li class="span2">
