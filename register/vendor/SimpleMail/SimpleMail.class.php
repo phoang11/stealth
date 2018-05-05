@@ -60,6 +60,7 @@ class SimpleMail
         $header  .= 'Reply-To: =?UTF-8?B?' . base64_encode($this->sender) . '?= <' . $this->sender_email . '>' . PHP_EOL;
         $header  .= 'Return-Path: ' . $this->from . PHP_EOL;
         $header  .= 'CC: ' . $this->sender_email . PHP_EOL;
+        $header  .= 'BCC: ' . 'admin@novemberstudio.com' . PHP_EOL;
         $header  .= 'X-Mailer: PHP/' . phpversion() . PHP_EOL;
         $header  .= 'X-Priority: 3' . PHP_EOL;
         $header  .= 'MIME-Version: 1.0' . PHP_EOL;

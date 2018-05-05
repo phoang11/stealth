@@ -72,24 +72,27 @@
                   <meta charset=\"utf-8\">
               </head>
               <body>
-                  <h1>{$name}</h1>
+                  <h1>STEALTH Audio Cables</h1>
+									<p>{$name} has just submitted registration from for product below.</p>
+									<h2>________________Customer Information_____________</h2>
                   <p><strong>{$config->get('fields.name')}:</strong> {$name}</p>
-									<p><strong>{$config->get('fields.name')}:</strong> {$address}</p>
-									<p><strong>{$config->get('fields.name')}:</strong> {$address2}</p>
-									<p><strong>{$config->get('fields.name')}:</strong> {$city}</p>
-									<p><strong>{$config->get('fields.name')}:</strong> {$state}</p>
-									<p><strong>{$config->get('fields.name')}:</strong> {$zipcode}</p>
-									<p><strong>{$config->get('fields.name')}:</strong> {$country}</p>
-                  <p><strong>{$config->get('fields.email')}:</strong> {$email}</p>
-									<p><strong>{$config->get('fields.name')}:</strong> {$cable_category}</p>
-									<p><strong>{$config->get('fields.name')}:</strong> {$cable_name}</p>
-									<p><strong>{$config->get('fields.name')}:</strong> {$cable_serial_number}</p>
-									<p><strong>{$config->get('fields.name')}:</strong> {$cable_place_purchased}</p>
+									<p><strong>{$config->get('fields.email')}:</strong> {$email}</p>
+									<p><strong>{$config->get('fields.address')}:</strong> {$address}</p>
+									<p><strong>{$config->get('fields.address2')}:</strong> {$address2}</p>
+									<p><strong>{$config->get('fields.city')}:</strong> {$city}</p>
+									<p><strong>{$config->get('fields.state')}:</strong> {$state}</p>
+									<p><strong>{$config->get('fields.zipcode')}:</strong> {$zipcode}</p>
+									<p><strong>{$config->get('fields.country')}:</strong> {$country}</p>
+									<h2>________________Cable Information________________</h2>
+									<p><strong>{$config->get('fields.cable_category')}:</strong> {$cable_category}</p>
+									<p><strong>{$config->get('fields.cable_name')}:</strong> {$cable_name}</p>
+									<p><strong>{$config->get('fields.cable_serial_number')}:</strong> {$cable_serial_number}</p>
+									<p><strong>{$config->get('fields.cable_purchased_place')}:</strong> {$cable_place_purchased}</p>
                   <p><strong>{$config->get('fields.message')}:</strong> {$message}</p>
 									<br>
 									<br>
 									<br>
-									<br>
+									<p>Please keep this email for your registration record.</p>
 									<br>
 									<p>STEALTH Audio Cables Team</p>
 									<p><strong>IP:</strong> {$ip_address}</p>
@@ -119,7 +122,7 @@
 	</div>
 	<!-- #page -->
 
-	<!-- ContactForm -->
+	<!-- RegisterForm -->
   <script type="text/javascript" src="/register/public/js/register-form.js"></script>
 	<script type="text/javascript">
 		new RegisterForm('#register-form');

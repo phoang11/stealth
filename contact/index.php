@@ -57,7 +57,8 @@
                   <meta charset=\"utf-8\">
               </head>
               <body>
-                  <h1>{$subject}</h1>
+									<h1>STEALTH Audio Cables</h1>
+                  <h2>{$subject}</h2>
                   <p><strong>{$config->get('fields.name')}:</strong> {$name}</p>
                   <p><strong>{$config->get('fields.email')}:</strong> {$email}</p>
                   <p><strong>{$config->get('fields.phone')}:</strong> {$phone}</p>
@@ -65,7 +66,7 @@
 									<br>
 									<br>
 									<br>
-									<br>
+									<p>Thanks for contacting us, we will reply to you as soon as possible.</p>
 									<br>
 									<p>STEALTH Audio Cables Team</p>
 									<p><strong>IP:</strong> {$ip_address}</p>
