@@ -16,7 +16,7 @@ return [
         'from' => 'noreply@stealthaudiocables.com'
     ],
     'messages' => [
-        'error'   => 'There was an error sending, please try again later.',
+        'error'   => 'Please try again and complete the CAPTCHA, if you are not a robot.',
         'success' => 'Your message has been sent successfully.'
     ],
     'fields' => [

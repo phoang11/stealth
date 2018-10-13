@@ -126,6 +126,10 @@
                               <label for="form-gspot" class="control-label element-invisible">My G spot</label>
                               <input class="select-or-other-other form-text" type="text" id="form-gspot" name="form-gspot" value="" size="60" maxlength="10">
                             </div>
+                            
+                            <div class="form-item">
+                              <div class="g-recaptcha" data-sitekey="6Le4cHQUAAAAAPanyj5c7HiBOe0S0h-c2ANmcf4J"></div>
+                            </div>
 
                          		<div class="form-actions">
                          			<input class="webform-submit button-primary form-submit" type="submit" name="op" value="Submit">

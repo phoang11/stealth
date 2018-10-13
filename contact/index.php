@@ -35,13 +35,35 @@
 			$gspot = stripslashes(trim($_POST['form-gspot']));
       $pattern = '/[\r\n]|Content-Type:|Bcc:|Cc:/i';
 
+			$emailIsValid = filter_var($email, FILTER_VALIDATE_EMAIL);
+
       if (preg_match($pattern, $name) || preg_match($pattern, $email) || preg_match($pattern, $subject)) {
           die("Header injection detected");
       }
 
-      $emailIsValid = filter_var($email, FILTER_VALIDATE_EMAIL);
+			//recaptcha response
+			$response = $_POST["g-recaptcha-response"];
+			$url = 'https://www.google.com/recaptcha/api/siteverify';
 
-      if ($name && $email && $emailIsValid && $subject && $message && empty($gspot)) {
+			$data = array(
+					'secret' => '6Le4cHQUAAAAABL8I6aPpzH2zsWDGfLjh6uHcllW',
+					'response' => $_POST["g-recaptcha-response"]
+			);
+
+			$options = array(
+					'http' => array (
+						'header' => "Content-Type: application/x-www-form-urlencoded\r\n".
+												"User-Agent:MyAgent/1.0\r\n",
+						'method' => 'POST',
+						'content' => http_build_query($data)
+					)
+				);
+
+			$context  = stream_context_create($options);
+			$verify = file_get_contents($url, false, $context);
+			$captcha_success = json_decode($verify);
+
+      if ($name && $email && $emailIsValid && $subject && $message && empty($gspot) && ($captcha_success->success)) {
           $mail = new SimpleMail();
 
           $mail->setTo($config->get('emails.to'));
