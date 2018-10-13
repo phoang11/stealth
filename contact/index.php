@@ -130,5 +130,8 @@
 	</script>
 	<script type="text/javascript" src="/sites/all/themes/stealth/js/site/content.js"></script>
 
+	<!-- recaptcha -->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+
 </body>
 </html>

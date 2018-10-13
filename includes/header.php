@@ -71,8 +71,6 @@
 	<script type="text/javascript" src="/sites/all/themes/stealth/vendor/swap-svg/swap-svg.js"></script>
 	<script type="text/javascript" src="/sites/all/themes/stealth/js/site/stealth.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
-	<script src='https://www.google.com/recaptcha/api.js'></script>
-
 
 	<script type="text/html" id="scroll-to-top-frag">
 		<div id="scoll-to-top"><a href="#" class="scroll-button">Scroll to Top</a></div>
