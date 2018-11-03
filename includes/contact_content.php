@@ -83,9 +83,14 @@
                                 <input class="select-or-other-other form-text" type="text" id="form-gspot" name="form-gspot" value="" size="60" maxlength="10">
                               </div>
 
-                              <div class="form-item">
-                                <div class="g-recaptcha" data-sitekey="6Le4cHQUAAAAAPanyj5c7HiBOe0S0h-c2ANmcf4J"></div>
+                              <div class="form-item form-type-textfield">
+                                <label for="form-door" class="control-label ">What is my brand name? <span class="form-required" title="This field is required.">* 7 characters</span> </label>
+                                <input required="required" class="form-text" type="text" id="form-door" name="form-door" placeholder="Hint: start with S, end with H" value="" size="7" maxlength="7">
                               </div>
+
+                              <!-- <div class="form-item">
+                                <div class="g-recaptcha" data-sitekey="6Le4cHQUAAAAAPanyj5c7HiBOe0S0h-c2ANmcf4J"></div>
+                              </div> -->
 
                               <div class="form-actions">
                                 <input class="webform-submit button-primary form-submit" type="submit" name="op" value="<?php echo $config->get('fields.btn-send'); ?>">

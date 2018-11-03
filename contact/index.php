@@ -32,6 +32,7 @@
       $phone   = stripslashes(trim($_POST['form-phone']));
       $subject = stripslashes(trim($_POST['form-subject']));
       $message = strip_tags(stripslashes(trim($_POST['form-message'])));
+			$door    = stripslashes(trim($_POST['form-door']));
 			$gspot = stripslashes(trim($_POST['form-gspot']));
       $pattern = '/[\r\n]|Content-Type:|Bcc:|Cc:/i';
 
@@ -42,28 +43,38 @@
       }
 
 			//recaptcha response
-			$response = $_POST["g-recaptcha-response"];
-			$url = 'https://www.google.com/recaptcha/api/siteverify';
+			// $response = $_POST["g-recaptcha-response"];
+			// $url = 'https://www.google.com/recaptcha/api/siteverify';
+			//
+			// $data = array(
+			// 		'secret' => '6Le4cHQUAAAAABL8I6aPpzH2zsWDGfLjh6uHcllW',
+			// 		'response' => $_POST["g-recaptcha-response"]
+			// );
+			//
+			// $options = array(
+			// 		'http' => array (
+			// 			'header' => "Content-Type: application/x-www-form-urlencoded\r\n" .
+			// 									"Content-Length: " . strlen(http_build_query($data)) . "\r\n" .
+			// 									"User-Agent:MyAgent/1.0\r\n",
+			// 			'method' => 'POST',
+			// 			'content' => http_build_query($data)
+			// 		)
+			// 	);
+			//
+			// $context  = stream_context_create($options);
+			// $verify = file_get_contents($url, false, $context, -1, 40000);
+			// $captcha_success = json_decode($verify);
 
-			$data = array(
-					'secret' => '6Le4cHQUAAAAABL8I6aPpzH2zsWDGfLjh6uHcllW',
-					'response' => $_POST["g-recaptcha-response"]
-			);
+      if ($name &&
+					$email &&
+					$emailIsValid &&
+					$subject &&
+					$message &&
+					empty($gspot) &&
+					('stealth' == strtolower($door))
+					// ($captcha_success->success)
 
-			$options = array(
-					'http' => array (
-						'header' => "Content-Type: application/x-www-form-urlencoded\r\n".
-												"User-Agent:MyAgent/1.0\r\n",
-						'method' => 'POST',
-						'content' => http_build_query($data)
-					)
-				);
-
-			$context  = stream_context_create($options);
-			$verify = file_get_contents($url, false, $context);
-			$captcha_success = json_decode($verify);
-
-      if ($name && $email && $emailIsValid && $subject && $message && empty($gspot) && ($captcha_success->success)) {
+				){
           $mail = new SimpleMail();
 
           $mail->setTo($config->get('emails.to'));
@@ -72,6 +83,7 @@
           $mail->setSenderEmail($email);
           $mail->setSubject($config->get('subject.prefix') . ' ' . $subject);
 					$ip_address = $_SERVER['REMOTE_ADDR'];
+
           $body = "
           <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
           <html>
