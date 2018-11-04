@@ -30,6 +30,7 @@
 								<li class="leaf"><a href="#power-cord">AC Power Cords</a></li>
 								<li class="leaf"><a href="#directionality">Directionality</a></li>
 								<li class="leaf"><a href="#revisions">Cables Revisions</a></li>
+								<li class="leaf"><a href="#cable-length">Cables Length</a></li>
 							</ul>
 						</div>
 					</div>
