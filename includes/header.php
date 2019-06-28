@@ -408,12 +408,19 @@
 													<div class="product-category-items product-category-tid-5">
 														<div class="mobile-tab"><a href="/products/power-cables">AC Power Cables</a></div>
 														<ul class="row">
+
+															<li class="span2">
+																<a href="/products/power-cables/dream-v18"><img src="/sites/images/products/nav_thumb/pc_dream_v18.png" alt="" />
+																	<div class="flyout-name">Dream V18</div>
+																</a>
+															</li>
+
 															<li class="span2">
 																<a href="/products/power-cables/dream-v16"><img src="/sites/images/products/nav_thumb/pc_dream_v16.png" alt="" />
 																	<div class="flyout-name">Dream V16</div>
 																</a>
-
 															</li>
+
 															<li class="span2">
 																<a href="/products/power-cables/dream-v10"><img src="/sites/images/products/nav_thumb/pc_dream_v10.png" alt="" />
 																	<div class="flyout-name">Dream V10</div>
