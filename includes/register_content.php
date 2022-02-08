@@ -35,18 +35,18 @@
                         <?php endif; ?>
                        <div class="content">
                          <form class="webform-client-form" action="/register/" method="post" id="register-form" accept-charset="UTF-8">
-                         	<div>
-                         		<fieldset class="webform-component-fieldset form-wrapper">
-                         			<legend>
-                         				<span class="fieldset-legend">Customer Information</span>
-                         			</legend>
-                         			<div class="fieldset-wrapper">
-                         				<div class="form-item">
-                         					<label for="form-name">Name
-                         						<span class="form-required" title="This field is required.">*</span>
-                         					</label>
-                         					<input required="required" type="text" id="form-name" name="form-name" value="" size="60" maxlength="128" class="form-text required" placeholder="Full Name">
-                         				</div>
+                           <div>
+                             <fieldset class="webform-component-fieldset form-wrapper">
+                               <legend>
+                                 <span class="fieldset-legend">Customer Information</span>
+                               </legend>
+                               <div class="fieldset-wrapper">
+                                 <div class="form-item">
+                                   <label for="form-name">Name
+                                     <span class="form-required" title="This field is required.">*</span>
+                                   </label>
+                                   <input required="required" type="text" id="form-name" name="form-name" value="" size="60" maxlength="128" class="form-text required" placeholder="Full Name">
+                                 </div>
                                 <div class="form-item">
                                   <label for="form-email">Email <span class="form-required" title="This field is required.">*</span></label>
                                   <input required="required" class="email form-text form-email" type="email" id="form-email" name="form-email" size="60">
@@ -75,52 +75,52 @@
                                   <label for="form-country">Country <span class="form-required" title="This field is required.">*</span></label>
                                   <input required="required" type="text" class="form-control" id="form-country" name="form-country">
                                 </div>
-                         			</div>
-                         		</fieldset>
-                         		<fieldset class="webform-component-fieldset form-wrapper">
-                         			<legend>
-                         				<span class="fieldset-legend">Cable Information</span>
-                         			</legend>
-                         			<div class="fieldset-wrapper">
+                               </div>
+                             </fieldset>
+                             <fieldset class="webform-component-fieldset form-wrapper">
+                               <legend>
+                                 <span class="fieldset-legend">Cable Information</span>
+                               </legend>
+                               <div class="fieldset-wrapper">
                                 <div class="form-item webform-component webform-component-select">
-                                	<label for="form-category">Cable Type
-                                		<span title="This field is required." class="form-required">*</span>
-                                	</label>
-                                	<select required="required" id="form-category" name="form-category" class="form-select required">
-                                		<option value="" selected="selected">- Select -</option>
-                                		<option value="Analog Interconnect">Analog Interconnect</option>
-                                		<option value="Digital Cables">Digital Cables</option>
-                                		<option value="Loudspeaker Cables">Loudspeaker Cables</option>
+                                  <label for="form-category">Cable Type
+                                    <span title="This field is required." class="form-required">*</span>
+                                  </label>
+                                  <select required="required" id="form-category" name="form-category" class="form-select required">
+                                    <option value="" selected="selected">- Select -</option>
+                                    <option value="Analog Interconnect">Analog Interconnect</option>
+                                    <option value="Digital Cables">Digital Cables</option>
+                                    <option value="Loudspeaker Cables">Loudspeaker Cables</option>
                                     <option value="Power Cables">Power Cables</option>
                                     <option value="Phono Cables">Phono Cables</option>
-                                		<option value="USB Cables">USB Cables</option>
-                                	</select>
+                                    <option value="USB Cables">USB Cables</option>
+                                  </select>
                                 </div>
-                         				<div class="form-item">
-                         					<label for="form-cable-name">Cable Name
-                         							<span class="form-required" title="This field is required.">*</span>
-                         					</label>
-                         					<input required="required" type="text" id="form-cable-name" name="form-cable-name" value="" size="120" maxlength="255" class="form-text required">
-                         				</div>
-                         				<div class="form-item">
-                         					<label for="form-serial-number">Cable Serial Number
-                         					  <span class="form-required" title="This field is required.">*</span>
-                         					</label>
-                         					<input required="required" type="text" id="form-serial-number" name="form-serial-number" value="" size="60" maxlength="24" class="form-text required">
-                         				</div>
-                         				<div class="form-item">
-                         					<label for="form-place-purchased">Where was the cable purchased? <span class="form-required" title="This field is required.">*</span></label>
-                         					<input required="required" type="text" id="form-place-purchased" name="form-place-purchased" value="" size="120" maxlength="255" class="form-text">
-                         				</div>
-                         			</div>
-                         		</fieldset>
-                         		<div class="form-item webform-component">
-                         			<label for="form-message">How do you intend to use the cable? </label>
-                         			<div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
-                         				<textarea id="form-message" name="form-message" cols="60" rows="5" class="form-textarea"></textarea>
-                         				<div class="grippie"></div>
-                         			</div>
-                         		</div>
+                                 <div class="form-item">
+                                   <label for="form-cable-name">Cable Name
+                                       <span class="form-required" title="This field is required.">*</span>
+                                   </label>
+                                   <input required="required" type="text" id="form-cable-name" name="form-cable-name" value="" size="120" maxlength="255" class="form-text required">
+                                 </div>
+                                 <div class="form-item">
+                                   <label for="form-serial-number">Cable Serial Number
+                                     <span class="form-required" title="This field is required.">*</span>
+                                   </label>
+                                   <input required="required" type="text" id="form-serial-number" name="form-serial-number" value="" size="60" maxlength="24" class="form-text required">
+                                 </div>
+                                 <div class="form-item">
+                                   <label for="form-place-purchased">Where was the cable purchased? <span class="form-required" title="This field is required.">*</span></label>
+                                   <input required="required" type="text" id="form-place-purchased" name="form-place-purchased" value="" size="120" maxlength="255" class="form-text">
+                                 </div>
+                               </div>
+                             </fieldset>
+                             <div class="form-item webform-component">
+                               <label for="form-message">How do you intend to use the cable? </label>
+                               <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea">
+                                 <textarea id="form-message" name="form-message" cols="60" rows="5" class="form-textarea"></textarea>
+                                 <div class="grippie"></div>
+                               </div>
+                             </div>
 
                             <div class="form-item form-type-textfield" style="display: none;">
                               <label for="form-gspot" class="control-label element-invisible">My G spot</label>
@@ -131,16 +131,16 @@
                               <label for="form-door" class="control-label ">What is my brand name? <span class="form-required" title="This field is required.">* 7 characters</span> </label>
                               <input required="required" class="form-text" type="text" id="form-door" name="form-door" placeholder="Hint: start with S, end with H" value="" size="7" maxlength="7">
                             </div>
-                            
+
                             <!-- <div class="form-item">
                               <div class="g-recaptcha" data-sitekey="6Le4cHQUAAAAAPanyj5c7HiBOe0S0h-c2ANmcf4J"></div>
                             </div> -->
 
-                         		<div class="form-actions">
-                         			<input class="webform-submit button-primary form-submit" type="submit" name="op" value="Submit">
-                         		</div>
+                             <div class="form-actions">
+                               <input class="webform-submit button-primary form-submit" type="submit" name="op" value="Submit">
+                             </div>
 
-                         	</div>
+                           </div>
                          </form>
                        </div>
                   <?php endif; ?>

@@ -114,16 +114,16 @@
 
       <!-- /sidebar-first -->
       <aside id="sidebar-second" class="span3">
-      	<div class="region region-sidebar-second">
-      		<div id="block-views-press_page-date_select" class="block block-views block-odd first last clearfix">
-      			<div class="block-inner">
-      				<div class="content">
-      					<div class="view view-press-page view-id-press_page view-display-id-date_select view-dom-id-b33c171b4779b60aa6178bf16a3fd5be">
-      						<div class="view-header">
-      							<h4>Shipping Information</h4>
-      						</div>
-      						<div class="view-content">
-      							<h3>Mailing Address</h3>
+        <div class="region region-sidebar-second">
+          <div id="block-views-press_page-date_select" class="block block-views block-odd first last clearfix">
+            <div class="block-inner">
+              <div class="content">
+                <div class="view view-press-page view-id-press_page view-display-id-date_select view-dom-id-b33c171b4779b60aa6178bf16a3fd5be">
+                  <div class="view-header">
+                    <h4>Shipping Information</h4>
+                  </div>
+                  <div class="view-content">
+                    <h3>Mailing Address</h3>
                     <ul class="press-filter-list">
                       <li class="press-filter">
                         STEALTH Audio<br>
@@ -145,13 +145,13 @@
                         <span class="shipping-carrier"><span class="form-required">*</span> UPS/FedEx/DHL</span>
                       </li>
                     </ul>
-      						</div>
-      					</div>
-      				</div>
-      			</div>
-      		</div>
-      		<!-- /block-inner /block -->
-      	</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /block-inner /block -->
+        </div>
       </aside>
       <!-- /sidebar-second -->
     </div>

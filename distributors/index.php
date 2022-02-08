@@ -1,33 +1,33 @@
 <?php
 
-	//Root directory.
-	define('BASEPATH', dirname(__DIR__));
+  //Root directory.
+  define('BASEPATH', dirname(__DIR__));
 
-	//Page title.
-	$page_title = 'Distributors';
+  //Page title.
+  $page_title = 'Distributors';
 
-	//Meta description.
-	$meta_description = '';
+  //Meta description.
+  $meta_description = '';
 
-	//Header.
-	require_once BASEPATH . '/includes/header.php';
+  //Header.
+  require_once BASEPATH . '/includes/header.php';
 
-	//Main.
-	require_once BASEPATH . '/includes/basic_content.php';
+  //Main.
+  require_once BASEPATH . '/includes/basic_content.php';
 
-	//Footer.
- 	require_once BASEPATH . '/includes/footer.php';
+  //Footer.
+   require_once BASEPATH . '/includes/footer.php';
 
 ?>
 
-	</div>
-	<!-- #page -->
+  </div>
+  <!-- #page -->
 
-	<!-- Data source -->
-	<script type="text/javascript">
-		var apiURL = 'http://admin.stealthaudiocables.com/?q=nid&nid=24';
-	</script>
-	<script type="text/javascript" src="/sites/all/themes/stealth/js/site/content.js"></script>
+  <!-- Data source -->
+  <script type="text/javascript">
+    var apiURL = 'http://admin.stealthaudiocables.com/?q=nid&nid=24';
+  </script>
+  <script type="text/javascript" src="/sites/all/themes/stealth/js/site/content.js"></script>
 
 </body>
 </html>
