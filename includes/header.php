@@ -217,6 +217,11 @@
                           <div class="product-category-items product-category-tid-9">
                             <div class="mobile-tab"><a href="/products/analog-interconnects">Analog Interconnects</a></div>
                             <ul class="row">
+                            <li class="span2">
+                                <a href="/products/analog-interconnects/tantaulus"><img src="/sites/images/products/nav_thumb/no_image.png" alt="" />
+                                  <div class="flyout-name">Tantaulus</div>
+                                </a>
+                              </li>
                               <li class="span2">
                                 <a href="/products/analog-interconnects/sakra-v17-limited-edition"><img src="/sites/images/products/nav_thumb/sakra_v12.png" alt="" />
                                   <div class="flyout-name">Śakra V17</div>
@@ -361,6 +366,12 @@
                           <div class="product-category-items product-category-tid-5">
                             <div class="mobile-tab"><a href="/products/loudspeaker-cables">Loudspeaker Cables</a></div>
                             <ul class="row">
+
+                              <li class="span2">
+                                <a href="/products/loudspeaker-cables/dream-full"><img src="/sites/images/products/nav_thumb/no_image.png" alt="" />
+                                  <div class="flyout-name">Dream Full</div>
+                                </a>
+
                               <li class="span2">
                                 <a href="/products/loudspeaker-cables/dream-royale"><img src="/sites/images/products/nav_thumb/sp_dream_royale.png" alt="" />
                                   <div class="flyout-name">Dream Royale</div>
@@ -380,12 +391,19 @@
                                 </a>
 
                               </li>
+
+                              <li class="span2">
+                                <a href="/products/loudspeaker-cables/cloude-999"><img src="/sites/images/products/nav_thumb/no_image.png" alt="" />
+                                  <div class="flyout-name">Cloude 999</div>
+                                </a>
+                              </li>
+
                               <li class="span2">
                                 <a href="/products/loudspeaker-cables/cloude-99"><img src="/sites/images/products/nav_thumb/sp_cloud_99.png" alt="" />
                                   <div class="flyout-name">Cloude 99</div>
                                 </a>
-
                               </li>
+
                               <li class="span2">
                                 <a href="/products/loudspeaker-cables/reverie"><img src="/sites/images/products/nav_thumb/sp_reverie.png" alt="" />
                                   <div class="flyout-name">Reverie</div>
@@ -410,6 +428,12 @@
                             <ul class="row">
 
                               <li class="span2">
+                                <a href="/products/power-cables/dream-20-20"><img src="/sites/images/products/nav_thumb/pc_dream_20_20.png" alt="" />
+                                  <div class="flyout-name">Dream 20-20</div>
+                                </a>
+                              </li>
+
+                              <li class="span2">
                                 <a href="/products/power-cables/dream-v18"><img src="/sites/images/products/nav_thumb/pc_dream_v18.png" alt="" />
                                   <div class="flyout-name">Dream V18</div>
                                 </a>
@@ -425,27 +449,47 @@
                                 <a href="/products/power-cables/dream-v10"><img src="/sites/images/products/nav_thumb/pc_dream_v10.png" alt="" />
                                   <div class="flyout-name">Dream V10</div>
                                 </a>
-
                               </li>
+
+                              <li class="span2">
+                                <a href="/products/power-cables/cloude-grande"><img src="/sites/images/products/nav_thumb/pc_cloude_grande.png" alt="" />
+                                  <div class="flyout-name">Cloude Grande</div>
+                                </a>
+                              </li>
+
+                              <li class="span2">
+                                <a href="/products/power-cables/cloude-grande-ag"><img src="/sites/images/products/nav_thumb/pc_cloude_grande.png" alt="" />
+                                  <div class="flyout-name">Cloude Grande Ag</div>
+                                </a>
+                              </li>
+
                               <li class="span2">
                                 <a href="/products/power-cables/cloude-99"><img src="/sites/images/products/nav_thumb/pc_cloud_99.png" alt="" />
                                   <div class="flyout-name">Cloude 99</div>
                                 </a>
-
                               </li>
+
                               <li class="span2">
                                 <a href="/products/power-cables/m7000"><img src="/sites/images/products/nav_thumb/pc_m7000.png" alt="" />
                                   <div class="flyout-name">M-7000</div>
                                 </a>
                               </li>
+
                               <li class="span2">
                                 <a href="/products/power-cables/straight-ac"><img src="/sites/images/products/nav_thumb/pc_straight_ac.png" alt="" />
                                   <div class="flyout-name">Straight AC</div>
                                 </a>
                               </li>
+
                               <li class="span2">
                                 <a href="/products/power-cables/swift"><img src="/sites/images/products/nav_thumb/pc_swift.png" alt="" />
                                   <div class="flyout-name">Swift</div>
+                                </a>
+                              </li>
+
+                              <li class="span2">
+                                <a href="/products/power-cables/custom-litz-ground"><img src="/sites/images/products/nav_thumb/no_image.png" alt="" />
+                                  <div class="flyout-name">Custom Litz Ground</div>
                                 </a>
                               </li>
 

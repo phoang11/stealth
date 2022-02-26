@@ -4,7 +4,7 @@
 	define('BASEPATH', dirname(dirname(dirname(__DIR__))));
 
 	//Page title.
-	$page_title = 'Dream V20';
+	$page_title = 'Dream Full';
 
 	//Meta description.
 	$meta_description = '';
@@ -25,7 +25,7 @@
 
 	<!-- Data source -->
 	<script type="text/javascript">
-		var apiURL = 'http://admin.stealthaudiocables.com/?q=product&nid=46';
+		var apiURL = 'http://admin.stealthaudiocables.com/?q=product&nid=51';
 	</script>
 	<script type="text/javascript" src="/sites/all/themes/stealth/js/site/content.product.js"></script>
 

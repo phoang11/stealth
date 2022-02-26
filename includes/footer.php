@@ -74,10 +74,10 @@
 
               <strong>Follow Us</strong>
               <div class="social-links">
-                <a href="#" target="_blank"><img src="/sites/all/themes/stealth/images/ui/facebook.png" alt="Stealth on Facebook"></a>
-                <a href="#" target="_blank"><img src="/sites/all/themes/stealth/images/ui/twitter.png" alt="Stealth on Twitter"></a>
-                <a href="#" target="_blank"><img src="/sites/all/themes/stealth/images/ui/youtube.png" alt="Stealth on YouTube"></a>
-                <a href="#" target="_blank"><img src="/sites/all/themes/stealth/images/ui/instagram.png" alt="Stealth on Instagram"></a>
+                <a href="https://www.facebook.com/stealthaudiocables" target="_blank"><img src="/sites/all/themes/stealth/images/ui/facebook.png" alt="Stealth on Facebook"></a>
+                <a href="https://twitter.com/stealthcables" target="_blank"><img src="/sites/all/themes/stealth/images/ui/twitter.png" alt="Stealth on Twitter"></a>
+                <!-- <a href="#" target="_blank"><img src="/sites/all/themes/stealth/images/ui/youtube.png" alt="Stealth on YouTube"></a> -->
+                <a href="https://www.instagram.com/stealthaudiocables" target="_blank"><img src="/sites/all/themes/stealth/images/ui/instagram.png" alt="Stealth on Instagram"></a>
               </div>
             </div>
 
