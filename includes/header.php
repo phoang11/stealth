@@ -446,6 +446,12 @@
                               </li>
 
                               <li class="span2">
+                                <a href="/products/power-cables/dream-v10-20"><img src="/sites/images/products/nav_thumb/no_image.png" alt="" />
+                                  <div class="flyout-name">Dream V10-20</div>
+                                </a>
+                              </li>
+
+                              <li class="span2">
                                 <a href="/products/power-cables/dream-v10"><img src="/sites/images/products/nav_thumb/pc_dream_v10.png" alt="" />
                                   <div class="flyout-name">Dream V10</div>
                                 </a>
