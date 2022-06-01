@@ -4,7 +4,7 @@
   define('BASEPATH', dirname(dirname(dirname(__DIR__))));
 
   //Page title.
-  $page_title = 'Tantaulus';
+  $page_title = 'Tantalus';
 
   //Meta description.
   $meta_description = '';

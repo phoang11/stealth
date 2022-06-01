@@ -218,8 +218,8 @@
                             <div class="mobile-tab"><a href="/products/analog-interconnects">Analog Interconnects</a></div>
                             <ul class="row">
                             <li class="span2">
-                                <a href="/products/analog-interconnects/tantaulus"><img src="/sites/images/products/nav_thumb/no_image.png" alt="" />
-                                  <div class="flyout-name">Tantaulus</div>
+                                <a href="/products/analog-interconnects/tantalus"><img src="/sites/images/products/nav_thumb/no_image.png" alt="" />
+                                  <div class="flyout-name">Tantalus</div>
                                 </a>
                               </li>
                               <li class="span2">
